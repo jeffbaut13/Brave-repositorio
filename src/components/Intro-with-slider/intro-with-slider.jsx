@@ -12,19 +12,17 @@ import removeSlashFromPagination from "../../common/removeSlashpagination";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 import ReactPlayer from "react-player";
 
-import VideoHome from "../Video-home/videoHome";
-
-
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
 const IntroWithSlider = ({ sliderRef }) => {
-  const [isOpen, setOpen] = React.useState(false);
   const [screenWidth, setScreenWidth] = useState(null);
   const [screenHeight, setScreenHeight] = useState(null);
   const [isClicked, setIsClicked] = useState(false);
-  const [muted, setMuted] = useState(true);
-  const [showControls, setShowControls] = useState(false);
-
+  
+  const handleClick = () => {
+    setIsClicked(true);
+  };
+  
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
@@ -56,14 +54,6 @@ const IntroWithSlider = ({ sliderRef }) => {
   const navigationNextRef = React.useRef(null);
   const paginationRef = React.useRef(null);
 
-
-  const handleClick = () => {
-    setIsClicked(true);
-    /* setMuted(false);
-    setShowControls(true); */
-  };
-
-
   return (
     <header
       ref={sliderRef}
@@ -74,7 +64,6 @@ const IntroWithSlider = ({ sliderRef }) => {
           <Swiper
             speed={1000}
             loop={true}
-            loopedSlides={introData.length}
             parallax={true}
             navigation={{
               prevEl: navigationPrevRef.current,
@@ -113,7 +102,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                 swiper.pagination.update();
               });
             }}
-            className="swiper-wrapper z-i"
+            className="swiper-wrapper"
             slidesPerView={1}
           >
             {introData.map((slide) => (
@@ -123,7 +112,6 @@ const IntroWithSlider = ({ sliderRef }) => {
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
                 >
-
                   <div className="Vimeo">
                   <ReactPlayer
                       playing={true}
@@ -136,7 +124,6 @@ const IntroWithSlider = ({ sliderRef }) => {
                     />
 
                   </div>
-
                   <div className="container">
                     <div className="row justify-content-start">
                       <div className="col-lg-8 col-md-10">
@@ -170,12 +157,10 @@ const IntroWithSlider = ({ sliderRef }) => {
                       </div>
                     </a>
                   </div>
-
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-
         ) : null}
         <div className="setone setwo">
           <div
@@ -195,7 +180,6 @@ const IntroWithSlider = ({ sliderRef }) => {
         </div>
 
 
-
         <div className="social-icon">
           <a href="#0">
             <i className="fab fa-facebook-f"></i>
@@ -210,7 +194,6 @@ const IntroWithSlider = ({ sliderRef }) => {
             <i className="fab fa-pinterest-p"></i>
           </a>
         </div>
-
       </div>
     </header>
   );

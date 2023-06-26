@@ -1,8 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Script from "next/script";
-
-
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
 
