@@ -16,7 +16,7 @@ const NavbarFullMenu = ({ theme }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <Link href="/" passHref>
+            <a href="/">
               {theme ? (
                 theme === "light" ? (
                   <img src={appData.darkLogo} alt="logo" />
@@ -26,7 +26,7 @@ const NavbarFullMenu = ({ theme }) => {
               ) : (
                 <img src={appData.lightLogo} alt="logo" />
               )}
-            </Link>
+            </a>
           </div>
           <div className="menu-icon">
             <span className="icon">
@@ -48,40 +48,40 @@ const NavbarFullMenu = ({ theme }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
-                    <Link href={`/`} passHref>
-                      <span  className="link">
+                    <Link href={`/`}>
+                      <a  className="link">
                         <span className="nm">01.</span>Home
-                      </span>
+                      </a>
                       </Link>
                     </div>
                     
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/blog-list/blog-list-dark`} passHref>
-                        <span className="link">
+                      <Link href={`/blog-list/blog-list-dark`}>
+                        <a className="link">
                           <span className="nm">02.</span>Campañas
-                        </span>
+                        </a>
                       </Link>
                     </div>
                   </li>
                   
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about/about-dark`} passHref>
-                        <span className="link">
+                      <Link href={`/about/about-dark`}>
+                        <a className="link">
                           <span className="nm">02.</span>Nosotros
-                        </span>
+                        </a>
                       </Link>
                     </div>
                   </li>
                   
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact/contact-dark`} passHref>
-                        <span className="link">
+                      <Link href={`/contact/contact-dark`}>
+                        <a className="link">
                           <span className="nm">05.</span>Contacto
-                        </span>
+                        </a>
                       </Link>
                     </div>
                   </li>
@@ -103,7 +103,7 @@ const NavbarFullMenu = ({ theme }) => {
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <Link href="#0" passHref>Vie_website@gmail.com</Link>
+                    <a href="#0">Vie_website@gmail.com</a>
                   </p>
                 </div>
               </div>
