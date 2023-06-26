@@ -9,7 +9,7 @@ import ProjectVideo from "../../components/Project-video/project-video";
 import NextProject from "../../components/Next-project/next-project";
 
 
-const ProjectDetails2Dark = ({data, DataDos, DataTres}) => {
+const ProjectDetails2Dark = ({data, DataDos, DataTres, next}) => {
 
  
   return (
@@ -19,7 +19,7 @@ const ProjectDetails2Dark = ({data, DataDos, DataTres}) => {
 
         <ProjectDescription projectDescriptionData={DataDos} />
         <ProjectVideo projectVideoDate={data} idvideo={DataTres} />
-        <NextProject />
+        <NextProject next={next}/>
         <Footer />
       </div>
     </DarkTheme>

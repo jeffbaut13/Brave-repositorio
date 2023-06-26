@@ -23,6 +23,7 @@ const mundoSinPlastico = () => {
         data={Project.projectHeaderImage}
         DataDos={ProjectDescription}
         DataTres={ProjectVideo}
+        next={ProjectDate.next}
       />
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const NextProject = () => {
+const NextProject = ({next}) => {
   return (
     <section className="next-prog section-padding">
       <div className="container">
@@ -10,7 +10,7 @@ const NextProject = () => {
               <div
                 className="bg-img valign"
                 style={{
-                  backgroundImage: "url(/img/portfolio/project2/6.jpg)",
+                  backgroundImage: `url(${next})`,
                 }}
                 data-overlay-dark="4"
               >

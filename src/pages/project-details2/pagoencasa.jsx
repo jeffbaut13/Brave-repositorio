@@ -23,6 +23,7 @@ const pagoEnCasa = () => {
         data={Project.projectHeaderImage}
         DataDos={ProjectDescription}
         DataTres={ProjectVideo}
+        next={ProjectDate.next}
       />
     </>
   );
