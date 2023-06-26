@@ -12,21 +12,16 @@ const NavbarFullMenu = ({ theme }) => {
     <>
       <div
         id="navi"
-        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
+        className={`topnav ligth`}
       >
         <div className="container-fluid">
           <div className="logo">
-            <a href="/">
-              {theme ? (
-                theme === "light" ? (
-                  <img src={appData.darkLogo} alt="logo" />
-                ) : (
-                  <img src={appData.lightLogo} alt="logo" />
-                )
-              ) : (
-                <img src={appData.lightLogo} alt="logo" />
-              )}
-            </a>
+          <Link href={`/`}>
+              
+              <img src={appData.lightLogo} alt="logo" />
+           
+          </Link>
+          
           </div>
           <div className="menu-icon">
             <span className="icon">

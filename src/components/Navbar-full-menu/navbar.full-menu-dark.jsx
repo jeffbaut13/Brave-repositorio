@@ -16,11 +16,11 @@ const NavbarFullMenuDark = ({ theme }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <a href="/">
+            <Link href="/">
               
                 <img src={appData.darkLogo} alt="logo" />
              
-            </a>
+            </Link>
           </div>
           <div className="menu-icon">
             <span className="icon">

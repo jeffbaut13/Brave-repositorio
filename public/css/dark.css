@@ -1973,6 +1973,7 @@ span:hover {
 
 .topnav .logo {
   width: 150px;
+  cursor: pointer;
 }
 
 .topnav .menu-icon {
