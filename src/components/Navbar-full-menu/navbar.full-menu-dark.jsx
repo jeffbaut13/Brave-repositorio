@@ -16,7 +16,7 @@ const NavbarFullMenuDark = ({ theme }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <Link href="/">
+            <Link href="/" passHref >
               
                 <img src={appData.darkLogo} alt="logo" />
              
