@@ -2,7 +2,7 @@
   "id": 2,
   "title": { "small": "INTER RAPIDÍSIMO", "big": "MUNDO SIN PLASTICO" },
   "clientURLLink": "#",
-  "projectHeaderImage": "/img/portfolio/project2/alcarrito-bg.jpg",
+  "projectHeaderImage": "/img/portfolio/project2/portada_mundo_sin_plastico.jpg",
   "videoLink": "838841453",
   "clientURLName": "INTER RAPIDISIMO",
   "date": "MARZO DE 2022",
@@ -73,11 +73,11 @@
     ]
   },
   "gallery": [
-    "/img/portfolio/project2/1.jpg",
-    "/img/portfolio/project2/2.jpg",
-    "/img/portfolio/project2/3.jpg",
-    "/img/portfolio/project2/5.jpg",
-    "/img/portfolio/project2/7.jpg"
+    "/img/portfolio/project2/camaron1.png",
+    "/img/portfolio/project2/iguana3.png",
+    "/img/portfolio/project2/pulpo2.png",
+    "/img/portfolio/project2/tiburon4.png",
+    "/img/portfolio/project2/1400_600_mundo_sin_plastico.jpg"
   ],
   "description": {
     "content": "Para lanzar esta innovación, primero mostraremos los estragos que inspiraron su creación, por ello, expusimos 50 nuevas especies descubiertas en Colombia, especies que no deberían existir, pero  que allí están, siendo un recordatorio de lo que el plástico mal desechado puede llegar a causar."
