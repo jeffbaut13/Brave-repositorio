@@ -2,11 +2,11 @@
   "id": 2,
   "title": { "small": "E-commerce", "big": "ALCARRITO" },
   "clientURLLink": "#",
-  "projectHeaderImage": "/img/portfolio/project2/alcarrito-bg.jpg",
+  "projectHeaderImage": "/img/portfolio/project2/portadaAlcarrito.jpg",
   "videoLink": "766908163",
   "clientURLName": "Envato.com",
   "date": "6 August 2022",
-  "next": "/img/portfolio/project2/6.jpg",
+  "next": "/img/portfolio/project2/circuloAlcarrito.jpg",
   "categories": [
     {
       "id": 1,
@@ -58,11 +58,11 @@
     ]
   },
   "gallery": [
-    "/img/portfolio/project2/1.jpg",
-    "/img/portfolio/project2/2.jpg",
-    "/img/portfolio/project2/3.jpg",
-    "/img/portfolio/project2/5.jpg",
-    "/img/portfolio/project2/7.jpg"
+    "/img/portfolio/project2/enano-alcarrito.jpg",
+    "/img/portfolio/project2/frame-2.jpg",
+    "/img/portfolio/project2/frame-3.jpg",
+    "/img/portfolio/project2/frame-4.jpg",
+    "/img/portfolio/project2/1400_600_alcarrito.jpg"
   ],
   "description": {
     "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."

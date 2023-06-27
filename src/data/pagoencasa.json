@@ -2,11 +2,11 @@
   "id": 2,
   "title": { "small": "E-commerce", "big": "PAGO EN CASA" },
   "clientURLLink": "#",
-  "projectHeaderImage": "/img/portfolio/project2/alcarrito-bg.jpg",
+  "projectHeaderImage": "/img/portfolio/project2/full_page_frame.jpg",
   "videoLink": "838841737",
   "clientURLName": "Envato.com",
   "date": "6 August 2022",
-  "next": "/img/portfolio/project2/6.jpg",
+  "next": "/img/portfolio/project2/circuloPagoenCasa.jpg",
   "categories": [
     {
       "id": 1,
@@ -58,11 +58,11 @@
     ]
   },
   "gallery": [
-    "/img/portfolio/project2/1.jpg",
-    "/img/portfolio/project2/2.jpg",
-    "/img/portfolio/project2/3.jpg",
-    "/img/portfolio/project2/5.jpg",
-    "/img/portfolio/project2/7.jpg"
+    "/img/portfolio/project2/post_1_pago_en_casa_pauta.jpg",
+    "/img/portfolio/project2/frame_2_pago_en_casa.jpg",
+    "/img/portfolio/project2/frame_4_pago_en_casa.jpg",
+    "/img/portfolio/project2/post_chica.jpg",
+    "/img/portfolio/project2/1400_600_Pago_en_Casa.jpg"
   ],
   "description": {
     "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
