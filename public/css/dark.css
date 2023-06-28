@@ -2671,9 +2671,16 @@ span:hover {
 
 .slider .social-icon {
   position: absolute;
-  left: 40px;
+  left: 10px;
   bottom: 40px;
   z-index: 8;
+}
+@media (max-width: 600px){
+  .slider .social-icon a {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
 }
 
 .slider .social-icon a {
@@ -8783,9 +8790,9 @@ footer .item .copy-right p a {
     font-size: 30px;
   }
 
-  .slider .social-icon {
+  /* .slider .social-icon {
     display: none;
-  }
+  } */
 
   .slider .setone.setwo .prev-ctrl {
     left: 15px;
