@@ -4,8 +4,9 @@
         "title": "#WEGO",
         "content": "Fifa World Cup Qatar 2022®",
         "company":"Inter Rapidísimo",
-        "image": "/img/slid/chicas.jpg",
+        "image": "/img/slid/fondo-negro.jpg",
         "video": "https://vimeo.com/838807359?share=copy",
+        "mobileVideo": "https://vimeo.com/840510890?share=copy",
         "idVimeo":"838807359",
         "url": "/project-details2/inter"
     },
@@ -14,8 +15,9 @@
         "title": "Mundo sin Plástico",
         "content": "Ayúdanos a extinguir un mundo lleno de plástico",
         "company":"Inter Rapidísimo",
-        "image": "/img/slid/03.jpg",
+        "image": "/img/slid/fondo-negro.jpg",
         "video": "https://vimeo.com/838806090?share=copy",
+        "mobileVideo": "https://vimeo.com/840508571?share=copy",
         "idVimeo":"127203262",
         "url": "/project-details2/mundosinplastico"
     },
@@ -24,8 +26,9 @@
         "title": "Alcarrito",
         "content": "100% de tod@s",
         "company":"Alcarrito",
-        "image": "/img/slid/01.jpg",
+        "image": "/img/slid/fondo-negro.jpg",
         "video": "https://vimeo.com/838815313?share=copy",
+        "mobileVideo": "https://vimeo.com/840511416?share=copy",
         "url": "/project-details2/alcarrito"
     },
     {
@@ -33,8 +36,9 @@
         "title": "Pago en Casa",
         "content": "Paga cuando recibas y revises tus productos",
         "company":"Inter Rapidísimo",
-        "image": "/img/slid/01.jpg",
+        "image": "/img/slid/fondo-negro.jpg",
         "video": "https://vimeo.com/838806054?share=copy",
+        "mobileVideo": "https://vimeo.com/840509063?share=copy",
         "url": "/project-details2/pagoencasa"
     }
 ]

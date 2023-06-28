@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/project-details2/pagoencasa": [
+    "/project-details2/inter": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/project-details2/pagoencasa.js"
+      "static/chunks/pages/project-details2/inter.js"
     ]
   },
   "ampFirstPages": []

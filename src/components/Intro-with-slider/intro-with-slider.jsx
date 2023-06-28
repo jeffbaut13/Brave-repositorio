@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import introData from "../../data/sections/intro.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -40,6 +38,7 @@ const IntroWithSlider = ({ sliderRef }) => {
 
   console.log("W" + screenWidth + "H" + screenHeight);
 
+  const isMobile = screenWidth <= 768; // Definir el ancho máximo para considerar dispositivos móviles
 
   const [load, setLoad] = React.useState(true);
   React.useEffect(() => {
@@ -113,34 +112,30 @@ const IntroWithSlider = ({ sliderRef }) => {
                   data-overlay-dark="6"
                 >
                   <div className="Vimeo">
-                  <ReactPlayer
-                      playing={true}
+                    <ReactPlayer
+                      playing={true} // Reproducir solo si no es un dispositivo móvil
                       loop={true}
                       muted={true}
                       controls={false}
-                      url={slide.video}
+                      url={isMobile ? slide.mobileVideo : slide.video} // Video diferente para dispositivos móviles
                       width={screenWidth + 'px'}
                       height={screenHeight + 'px'}
                     />
-
                   </div>
                   <div className="container">
                     <div className="row justify-content-start">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30">
-
                           <Link href={slide.url} passHref>
-
-                            <h1 style={{ cursor: `pointer` }} className="braveCustom">{slide.title}<br />
+                            <h1 style={{ cursor: `pointer` }} className="braveCustom">
+                              {slide.title}<br />
                               <span className="contenido titulo">{slide.content} <br />
                                 <span className="titulo_company">
                                   {slide.company}
                                 </span>
                               </span>
-
                             </h1>
                           </Link>
-
                         </div>
                       </div>
                     </div>
@@ -148,12 +143,10 @@ const IntroWithSlider = ({ sliderRef }) => {
                   <div className="Customvideo video bg-img parallaxie">
                     <a id="play" className={`vid valign ${isClicked ? 'hidden' : ''}`} onClick={handleClick}>
                       <div className="vid-butn">
-
                         <i className="fas fa-play"></i>
                         <span className="reproducir">
                           Play
                         </span>
-
                       </div>
                     </a>
                   </div>
@@ -166,20 +159,12 @@ const IntroWithSlider = ({ sliderRef }) => {
           <div
             ref={navigationNextRef}
             className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-          >
-
-          </div>
+          ></div>
           <div
             ref={navigationPrevRef}
             className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-          >
-
-          </div>
-
-
+          ></div>
         </div>
-
-
         <div className="social-icon">
           <a href="#0">
             <i className="fab fa-facebook-f"></i>
