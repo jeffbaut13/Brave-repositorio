@@ -1481,6 +1481,16 @@ span:hover {
   font-weight: 600 !important;
   line-height: 0.8 !important;
 }
+@media (max-width: 600px) {
+  .contenido.titulo {
+    font-size: 10px !important;
+  }
+  .contenido.titulo .titulo_company{
+    font-weight: 100 !important;
+      font-size: 8px !important;
+  }
+
+}
 .contenido.titulo {
   margin-top: 10px;
   font-size: 1rem;
@@ -1497,7 +1507,7 @@ span:hover {
   position: absolute;
   z-index: 2;
   bottom: 9%;
-  left: 40px;
+  left: 2px;
   text-align: start;
 }
 .Vimeo{
@@ -8436,9 +8446,9 @@ footer .item .copy-right p a {
     letter-spacing: 1px;
   }
 
-  .slider .parallax-slider .caption h1 br {
+  /* .slider .parallax-slider .caption h1 br {
     display: none;
-  }
+  } */
 
   .slider-stwo .img {
     padding-right: 0;
@@ -8765,9 +8775,9 @@ footer .item .copy-right p a {
     font-size: 40px;
   }
 
-  .slider .parallax-slider .caption h1 br {
+  /* .slider .parallax-slider .caption h1 br {
     display: none;
-  }
+  } */
 
   .slider .parallax-slider .swiper-slide-active .caption h1 {
     font-size: 30px;

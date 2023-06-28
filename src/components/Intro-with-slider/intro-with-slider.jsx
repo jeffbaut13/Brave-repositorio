@@ -128,7 +128,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                         <div className="caption center mt-30">
                           <Link href={slide.url} passHref>
                             <h1 style={{ cursor: `pointer` }} className="braveCustom">
-                              {slide.title}<br />
+                              {slide.title} <br />
                               <span className="contenido titulo">{slide.content} <br />
                                 <span className="titulo_company">
                                   {slide.company}
