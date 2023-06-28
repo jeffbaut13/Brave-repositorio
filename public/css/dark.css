@@ -2677,8 +2677,8 @@ span:hover {
 }
 @media (max-width: 600px){
   .slider .social-icon a {
-    width: 20px !important;
-    height: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
 
 }
