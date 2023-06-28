@@ -55,6 +55,35 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('../fonts/HKGrotesk-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('../fonts/HKGrotesk-Light.otf') format('opentype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('../fonts/HKGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('../fonts/HKGrotesk-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('../fonts/HKGrotesk-SemiBold.otf') format('opentype');
+  font-weight: bold;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +105,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: "Poppins", sans-serif;
+  font-family: "HkGrotesk", sans-serif;
 }
 
 img {
