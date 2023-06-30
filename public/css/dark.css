@@ -340,6 +340,15 @@ span:hover {
   background-size: auto;
   background-repeat: repeat;
 }
+@media (max-width: 600px){
+  .section-padding.campanas{
+    padding-top: 400px !important;
+  }
+  .container.campanas{
+    position: absolute;
+    top: 390px !important;
+  }
+}
 
 .section-padding {
   padding: 120px 0;

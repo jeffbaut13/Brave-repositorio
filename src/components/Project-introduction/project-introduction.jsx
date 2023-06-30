@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectIntroduction = ({ content, spmList }) => {
   return (
-    <section className="intro-section section-padding">
+    <section className="intro-section section-padding campanas">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-4">

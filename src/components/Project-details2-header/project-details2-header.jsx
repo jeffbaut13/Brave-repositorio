@@ -8,7 +8,7 @@ const ProjectDetails2Header = ({ projectHeaderData }) => {
       style={{ backgroundImage: `url(${projectHeaderData.projectHeaderImage})` }}
       data-overlay-dark="4"
     >
-      <div className="container">
+      <div className="container campanas">
         <div className="row">
           <div className="col-lg-7 col-md-9">
             <div className="cont">
