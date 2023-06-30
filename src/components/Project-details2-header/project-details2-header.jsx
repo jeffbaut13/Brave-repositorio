@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 const ProjectDetails2Header = ({ projectHeaderData }) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
+  }, []);
+
   return (
     <section
       className="page-header proj-det bg-img parallaxie valign"
-      style={{ backgroundImage: `url(${projectHeaderData.projectHeaderImage})` }}
+      style={{
+        backgroundImage: isMobile
+          ? `url(${projectHeaderData.projectHeaderImageMobil})`
+          : `url(${projectHeaderData.projectHeaderImage})`,
+      }}
       data-overlay-dark="4"
     >
       <div className="container campanas">
