@@ -7,9 +7,9 @@ const ProjectDescription = ({ projectDescriptionData }) => {
         <div className="row">
           <div className="col-lg-3 col-md-4">
             <div className="htit">
-              <h4>
+              <h3>
                 <span>02 </span> Idea
-              </h4>
+              </h3>
             </div>
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">

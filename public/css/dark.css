@@ -4358,7 +4358,7 @@ span:hover {
 .intro-section .htit span {
   font-size: 17px;
   font-weight: 300;
-  color: #12c2e9;
+  color: #E9B62C;
   margin-right: 5px;
 }
 
@@ -6088,10 +6088,10 @@ span:hover {
   cursor: pointer;
 }
 .swiper-button-next.cursor-pointer{
-  cursor: url('../img/derecha.svg') 30 22, auto !important;
+  cursor: url('../img/derecha.png') 30 22, auto !important;
 }
 .swiper-button-prev.cursor-pointer{
-  cursor: url('../img/izquierda.svg') 30 22, auto !important;
+  cursor: url('../img/izquierda.png') 30 22, auto !important;
 }
 
 
