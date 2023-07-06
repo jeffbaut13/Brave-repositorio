@@ -18,7 +18,7 @@ const ProjectDetails2Dark = ({data, DataDos, DataTres, next}) => {
       <div className="wrapper">
 
         <ProjectDescription projectDescriptionData={DataDos} />
-        <ProjectVideo projectVideoDate={data} idvideo={DataTres} />
+        <ProjectVideo /* projectVideoDate={data} */ idvideo={DataTres} />
         <NextProject next={next}/>
         <Footer />
       </div>

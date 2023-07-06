@@ -342,7 +342,7 @@ span:hover {
 }
 @media (max-width: 600px){
   .section-padding.campanas{
-    padding-top: 400px !important;
+    padding-top: 450px !important;
   }
   .container.campanas{
     position: absolute;
@@ -4388,6 +4388,11 @@ span:hover {
   margin-right: 0;
 }
 
+@media (max-width: 600px){
+  .extra-text {
+    font-size: 16px !important;
+  }
+}
 .extra-text {
   font-size: 22px;
 }
@@ -4466,6 +4471,12 @@ span:hover {
   transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
 
+@media (max-width: 600px){
+  .js-scroll__content {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+}
 .js-scroll__content {
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;

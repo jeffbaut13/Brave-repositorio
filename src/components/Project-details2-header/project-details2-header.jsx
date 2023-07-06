@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
+
 const ProjectDetails2Header = ({ projectHeaderData }) => {
   const [isMobile, setIsMobile] = useState(false);
 
