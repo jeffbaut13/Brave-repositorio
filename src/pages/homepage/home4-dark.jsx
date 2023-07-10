@@ -29,7 +29,7 @@ const Homepage4 = () => {
       if (MainContent.current) {
         MainContent.current.style.marginTop = slidHeight + "px";
       }
-    }, 1000);
+    });
     /* var navbar = navbarRef.current,
       logo = logoRef.current;
     if (window.pageYOffset > 300) {
