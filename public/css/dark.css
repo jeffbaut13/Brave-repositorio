@@ -320,7 +320,12 @@ span:hover {
 }
 
 .sub-bg {
-  background: #18191d;
+  background: #111215;
+}
+.iconosClientes {
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .bg-img {
@@ -4888,7 +4893,7 @@ span:hover {
   font-weight: 700;
   margin-bottom: 10px;
   color: transparent;
-  -webkit-text-stroke: 1px #b19777;
+  -webkit-text-stroke: 1px #12c2e9 ;
 }
 
 .serv-arch .item h5 {
@@ -5041,12 +5046,12 @@ span:hover {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  max-width: 75px;
+  max-width: 140px;
   margin: auto;
 }
 
 .clients .brands .img .link {
-  font-size: 13px;
+  font-size: 16px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;

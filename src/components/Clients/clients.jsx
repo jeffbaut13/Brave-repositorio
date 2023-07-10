@@ -3,9 +3,8 @@ import React from "react";
 import ClientsData from "../../data/sections/clients.json";
 import Split from "../Split";
 
-const Clients = ({theme}) => {
-  var first = ClientsData.slice(0, ClientsData.length / 2);
-  var second = ClientsData.slice(4, ClientsData.length);
+const Clients = ({ theme }) => {
+
   return (
     <section className="clients section-padding">
       <div className="container">
@@ -23,24 +22,11 @@ const Clients = ({theme}) => {
             </div>
           </div>
           <div className="col-lg-8">
-            <div>
-              <div className="row bord">
-                {first.map((item) => (
-                  <div key={item.id} className="col-md-3 col-6 brands">
-                    <div
-                      className="item wow fadeIn"
-                      data-wow-delay={`${
-                        item.id == 1
-                          ? ".3"
-                          : item.id == 2
-                          ? ".6"
-                          : item.id == 3
-                          ? ".8"
-                          : item.id == 4
-                          ? ".3"
-                          : ""
-                      }s`}
-                    >
+            
+              <div className="row iconosClientes">
+                {ClientsData.slice(0, 2).map((item) => (
+                  <div key={item.id} className="col-lg-3 brands">
+                    <div className="item no-bord wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
                         {theme === "light" ? (
                           <img src={item.lightImage} alt="" />
@@ -49,9 +35,10 @@ const Clients = ({theme}) => {
                         )}
                         <Split>
                           <a
-                            href="#0"
+                            href={`https://${item.url}`}
                             className="link words chars splitting"
                             data-splitting
+                            target="_blank"
                           >
                             {item.url}
                           </a>
@@ -61,57 +48,7 @@ const Clients = ({theme}) => {
                   </div>
                 ))}
               </div>
-              <div className="row">
-                {second.map((item) => (
-                  <div
-                    key={item.id}
-                    className={`${
-                      item.id == 5
-                        ? "col-md-3 col-6 brands sm-mb30"
-                        : item.id == 6
-                        ? "col-md-3 col-6 brands sm-mb30"
-                        : item.id == 7
-                        ? "col-md-3 col-6 brands"
-                        : item.id == 8
-                        ? "col-md-3 col-6 brands"
-                        : ""
-                    }`}
-                  >
-                    <div
-                      className="item wow fadeIn"
-                      data-wow-delay={`${
-                        item.id == 1
-                          ? ".4"
-                          : item.id == 2
-                          ? ".7"
-                          : item.id == 3
-                          ? ".5"
-                          : item.id == 4
-                          ? ".3"
-                          : ""
-                      }s`}
-                    >
-                      <div className="img">
-                        {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
-                        ) : (
-                          <img src={item.darkImage} alt="" />
-                        )}
-                        <Split>
-                          <a
-                            href="#0"
-                            className="link words chars splitting"
-                            data-splitting
-                          >
-                            {item.url}
-                          </a>
-                        </Split>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
