@@ -2,6 +2,7 @@
 import React from "react";
 import ClientsData from "../../data/sections/clients.json";
 import Split from "../Split";
+import Link from "next/link";
 
 const Clients = ({ theme }) => {
 
@@ -22,33 +23,36 @@ const Clients = ({ theme }) => {
             </div>
           </div>
           <div className="col-lg-8">
-            
-              <div className="row iconosClientes">
-                {ClientsData.slice(0, 2).map((item) => (
-                  <div key={item.id} className="col-lg-3 brands">
-                    <div className="item no-bord wow fadeIn" data-wow-delay=".3s">
-                      <div className="img">
-                        {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
-                        ) : (
-                          <img src={item.darkImage} alt="" />
-                        )}
-                        <Split>
+
+            <div className="row iconosClientes">
+              {ClientsData.slice(0, 2).map((item) => (
+                <div key={item.id} className="col-lg-3 brands">
+                  <div className="item no-bord wow fadeIn" data-wow-delay=".3s">
+                    <div className="img">
+                      {theme === "light" ? (
+                        <img src={item.lightImage} alt="" />
+                      ) : (
+                        <img src={item.darkImage} alt="" />
+                      )}
+                      <Split>
+                        <Link href={`https://${item.url}`} passHref data-splitting>
+
                           <a
-                            href={`https://${item.url}`}
                             className="link words chars splitting"
-                            data-splitting
-                            
+                            target="_blank"
+
                           >
                             {item.url}
                           </a>
-                        </Split>
-                      </div>
+
+                        </Link>
+                      </Split>
                     </div>
                   </div>
-                ))}
-              </div>
-            
+                </div>
+              ))}
+            </div>
+
           </div>
         </div>
       </div>
