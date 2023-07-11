@@ -327,6 +327,14 @@ span:hover {
   justify-content: space-around;
   align-items: center;
 }
+@media (min-width:1024px){
+
+  .ServicescustomCss{
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 .bg-img {
   background-size: cover;

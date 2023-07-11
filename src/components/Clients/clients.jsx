@@ -38,7 +38,7 @@ const Clients = ({ theme }) => {
                             href={`https://${item.url}`}
                             className="link words chars splitting"
                             data-splitting
-                            target="_blank"
+                            
                           >
                             {item.url}
                           </a>
