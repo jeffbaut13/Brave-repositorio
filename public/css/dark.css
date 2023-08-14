@@ -55,34 +55,123 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+
 @font-face {
-  font-family: 'HKGrotesk';
-  src: url('../fonts/HKGrotesk-Bold.otf') format('opentype');
+  font-family: 'HankenGrotesk-Black';
+  src: url('../fonts/HankenGrotesk-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-BlackItalic';
+  src: url('../fonts/HankenGrotesk-BlackItalic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-Bold';
+  src: url('../fonts/HankenGrotesk-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-BoldItalic';
+  src: url('../fonts/HankenGrotesk-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-ExtraBold';
+  src: url('../fonts/HankenGrotesk-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-ExtraBoldItalic';
+  src: url('../fonts/HankenGrotesk-ExtraBoldItalic.ttf');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-ExtraLight';
+  src: url('../fonts/HankenGrotesk-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-ExtraLightItalic';
+  src: url('../fonts/HankenGrotesk-ExtraLightItalic.ttf');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-Italic';
+  src: url('../fonts/HankenGrotesk-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-Light';
+  src: url('../fonts/HankenGrotesk-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-LightItalic';
+  src: url('../fonts/HankenGrotesk-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-Medium';
+  src: url('../fonts/HankenGrotesk-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-MediumItalic';
+  src: url('../HankenGrotesk-MediumItalic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+    
+@font-face {
+  font-family: 'HankenGrotesk-Regular';
+  src: url('../HankenGrotesk-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-SemiBold';
+  src: url('../HankenGrotesk-SemiBold.ttf');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'HKGrotesk';
-  src: url('../fonts/HKGrotesk-Light.otf') format('opentype');
-  font-weight: lighter;
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('../fonts/HKGrotesk-Medium.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('../fonts/HKGrotesk-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('../fonts/HKGrotesk-SemiBold.otf') format('opentype');
+  font-family: 'HankenGrotesk-SemiBoldItalic';
+  src: url('../HankenGrotesk-SemiBoldItalic.ttf');
   font-weight: bold;
+  font-style: italic;
 }
 
+@font-face {
+  font-family: 'HankenGrotesk-Thin';
+  src: url('../HankenGrotesk-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk-ThinItalic';
+  src: url('../HankenGrotesk-ThinItalic.ttf');
+  font-weight: 100;
+  font-style: italic;
+}
 
 * {
   margin: 0;
@@ -8254,7 +8343,7 @@ footer .item .logo {
 }
 
 footer .item .logo img {
-  width: 50px;
+  width: 300px;
 }
 
 footer .item .social a {

@@ -93,7 +93,7 @@ const Blogs4 = () => {
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/1.jpg"
+                          src="/img/blog/ballena.jpg"
                           alt=""
                         />
                       </div>
@@ -104,7 +104,7 @@ const Blogs4 = () => {
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/2.jpg"
+                          src="/img/blog/sapo.jpg"
                           alt=""
                         />
                       </div>
@@ -115,7 +115,18 @@ const Blogs4 = () => {
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/3.jpg"
+                          src="/img/blog/tortuga.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item wow fadeIn" data-wow-delay=".3s">
+                      <div className="img">
+                        <img
+                          className="thumparallax"
+                          src="/img/blog/cangrejo.jpg"
                           alt=""
                         />
                       </div>
@@ -176,9 +187,9 @@ const Blogs4 = () => {
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
                         <div className="tags">
-                          <Link href="/blog/blog-dark">Trending</Link>
+                          <Link href="/blog/blog-dark">Tendencias</Link>
                         </div>
-                        <div className="info">
+                       {/*  <div className="info">
                           <Link href="/blog/blog-dark">
                             <a>
                               <i className="far fa-clock"></i>
@@ -186,25 +197,60 @@ const Blogs4 = () => {
                             </a>
                           </Link>
                           <a href="#0">by Alex Morgan</a>
-                        </div>
+                        </div> */}
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                              Create The Lifestyle You Really Desire This World
+                            THE AD FORUM PHNX 2023
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                            Success is no accident. It is hard work,
-                            perseverance, learning, studying, sacrifice and most
-                            of all, love of what you are doing.
+                          Print: Advertising photography Plastic bearded humpback whale.<br/>Award: Bronze campaign.
+
                           </p>
                         </div>
                         <div className="more">
-                          <Link href={`/blog-details/blog-details-dark`}>
-                            Read More
+                          <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                            Conoce más
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item wow fadeIn" data-wow-delay=".6s">
+                      <div className="content">
+                        <div className="tags">
+                          <Link href="/blog/blog-dark">Tendencias</Link>
+                        </div>
+                       {/*  <div className="info">
+                          <Link href="/blog/blog-dark">
+                            <a>
+                              <i className="far fa-clock"></i>
+                              06 Aug 2022
+                            </a>
                           </Link>
+                          <a href="#0">by Alex Morgan</a>
+                        </div> */}
+                        <div className="title">
+                          <h4>
+                            <Link href="/blog-details/blog-details-dark">
+                            THE AD FORUM PHNX 2023
+                            </Link>
+                          </h4>
+                        </div>
+                        <div className="text">
+                          <p>
+                          Print: Advertising photography Plastic cave frog.<br/>Award: Bronze campaign.
+
+                          </p>
+                        </div>
+                        <div className="more">
+                          <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                            Conoce más
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -213,9 +259,9 @@ const Blogs4 = () => {
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
                         <div className="tags">
-                          <Link href="/blog/blog-dark">Trending</Link>
+                          <Link href="/blog/blog-dark">TENDENCIAS</Link>
                         </div>
-                        <div className="info">
+                        {/* <div className="info">
                           <Link href="/blog/blog-dark">
                             <a>
                               <i className="far fa-clock"></i>
@@ -223,25 +269,24 @@ const Blogs4 = () => {
                             </a>
                           </Link>
                           <a href="#0">by Alex Morgan</a>
-                        </div>
+                        </div> */}
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                              <a>List of The Best Investment Projects</a>
+                              <a>THE AD FORUM PHNX 2023</a>
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                            Success is no accident. It is hard work,
-                            perseverance, learning, studying, sacrifice and most
-                            of all, love of what you are doing.
+                          Print: Advertising photography Hawksbill turtle with plastic coat <br/> Award: Bronze campaign.
+
                           </p>
                         </div>
                         <div className="more">
-                          <Link href={`/blog-details/blog-details-dark`}>
-                            Read More
-                          </Link>
+                        <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                            Conoce más
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -250,9 +295,9 @@ const Blogs4 = () => {
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
                         <div className="tags">
-                          <Link href="/blog/blog-dark">Trending</Link>
+                          <Link href="/blog/blog-dark">TENDENCIAS</Link>
                         </div>
-                        <div className="info">
+                        {/* <div className="info">
                           <Link href="/blog/blog-dark">
                             <a>
                               <i className="far fa-clock"></i>
@@ -260,25 +305,23 @@ const Blogs4 = () => {
                             </a>
                           </Link>
                           <a href="#0">by Alex Morgan</a>
-                        </div>
+                        </div> */}
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                              <a>World Best Business Website Company</a>
+                              <a>REVISTA Lurzer's Archive 223 (US edition). 2/23</a>
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                            Success is no accident. It is hard work,
-                            perseverance, learning, studying, sacrifice and most
-                            of all, love of what you are doing.
+                          Plastic court hermit crab <br/> Social + Environment
                           </p>
                         </div>
                         <div className="more">
-                          <Link href={`/blog-details/blog-details-dark`}>
-                            Read More
-                          </Link>
+                        <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                            Conoce más
+                          </a>
                         </div>
                       </div>
                     </div>

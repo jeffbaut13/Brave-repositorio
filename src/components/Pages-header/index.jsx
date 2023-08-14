@@ -9,8 +9,7 @@ const PagesHeader = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                Our dedicated team of creatives is bursting with talent,
-                experience and passion for what we do.
+              Nos esforzamos por hacer que nuestro trabajo le agregue valor a la vida de las personas y no ruido.
               </h1>
             </div>
           </div>

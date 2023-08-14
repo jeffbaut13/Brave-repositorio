@@ -37,11 +37,11 @@ const About = () => {
       <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
       <PagesHeader />
       <AboutIntro />
-      <Services style="4item" />
-      <VideoWithTestimonials />
-      <SkillsCircle from="aboutPage" />
-      <Team />
-      <MinimalArea />
+      {/* <Services style="4item" />
+      <VideoWithTestimonials /> */}
+    {/*   <SkillsCircle from="aboutPage" />
+      <Team /> */}
+     {/*  <MinimalArea /> */}
       <Clients theme="dark" />
       <CallToAction />
       <Footer />

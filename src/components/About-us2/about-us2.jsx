@@ -8,7 +8,7 @@ const AboutUs2 = () => {
     <div className="about section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
+          {/* <div className="col-lg-5">
             <div className="img-mons sm-mb30">
               <div className="row">
                 <div className="col-md-5 cmd-padding valign">
@@ -34,7 +34,7 @@ const AboutUs2 = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="content">
               <div className="sub-title">
@@ -53,7 +53,7 @@ const AboutUs2 = () => {
                   {AboutUs2Date.content}
                 </p>
               </Split>
-              <div className="ftbox mt-30">
+              {/* <div className="ftbox mt-30">
                 <ul>
                   {AboutUs2Date.features.map((feature) => (
                     <li
@@ -75,7 +75,7 @@ const AboutUs2 = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

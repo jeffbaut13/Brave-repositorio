@@ -14,12 +14,13 @@ const CallToAction = ({img}) => {
               <div className="content sm-mb30">
                 <Split>
                   <h6 className="wow words chars splitting" data-splitting>
-                    Let’s Talk
+                    
                   </h6>
                   <h2 className="wow words chars splitting" data-splitting>
-                    about your <br /> <b className="back-color">next project</b>
-                    .
+                    TRAE TU MARCA
                   </h2>
+                  <b className="back-color">A LA AGENCIA DONDE LA VALENTIA ES LA NORMA</b>
+                    .
                 </Split>
               </div>
             </div>

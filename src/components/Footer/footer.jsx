@@ -39,7 +39,7 @@ const Footer = ({ hideBGCOLOR }) => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item md-mb50">
+            {/* <div className="item md-mb50">
               <div className="title">
                 <h5>Recent News</h5>
               </div>
@@ -99,7 +99,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-4">
             <div className="item">
@@ -122,14 +122,14 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Vie Template. Made with passion by
+                 BrAVE © 2023. {/* Vie Template. Made with passion by
                   <Link
                     href="https://themeforest.net/user/themescamp/portfolio"
                     
                   >
                     <a target="_blank">ThemesCamp</a>
-                  </Link>
-                  .
+                  </Link> */}
+                  
                 </p>
               </div>
             </div>
