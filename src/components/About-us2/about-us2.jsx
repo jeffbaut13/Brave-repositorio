@@ -7,7 +7,7 @@ const AboutUs2 = () => {
   return (
     <div className="about section-padding">
       <div className="container">
-        <div className="row">
+        <div>
           {/* <div className="col-lg-5">
             <div className="img-mons sm-mb30">
               <div className="row">
@@ -35,11 +35,11 @@ const AboutUs2 = () => {
               </div>
             </div>
           </div> */}
-          <div className="col-lg-6 offset-lg-1 valign">
+          <div className="col-lg-12 offset-lg-1 valign nos">
             <div className="content">
-              <div className="sub-title">
-                <h6>{AboutUs2Date.smallTitle}</h6>
-              </div>
+              {/* <div className="">
+                <h3 className="wow color-font">{AboutUs2Date.smallTitle}</h3>
+              </div> */}
               <Split>
                 <h3
                   className="words chars splitting main-title wow"

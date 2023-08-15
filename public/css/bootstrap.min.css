@@ -1643,9 +1643,9 @@ pre code {
     margin-left: 0;
   }
 
-  .offset-lg-1 {
+  /* .offset-lg-1 {
     margin-left: 8.333333%;
-  }
+  } */
 
   .offset-lg-2 {
     margin-left: 16.666667%;

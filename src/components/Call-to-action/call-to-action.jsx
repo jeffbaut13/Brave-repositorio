@@ -19,7 +19,7 @@ const CallToAction = ({img}) => {
                   <h2 className="wow words chars splitting" data-splitting>
                     TRAE TU MARCA
                   </h2>
-                  <b className="back-color">A LA AGENCIA DONDE LA VALENTIA <br/>ES LA NORMA</b>
+                  <b className="">A LA AGENCIA DONDE LA VALENTIA <br/>ES LA NORMA</b>
                     .
                 </Split>
               </div>
