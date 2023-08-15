@@ -275,13 +275,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -291,13 +291,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
 }
 
 .line {
@@ -308,13 +308,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
 }
 
 .line.top {
@@ -378,7 +378,7 @@ span:hover {
 }
 
 .main-color {
-  color: #12c2e9 !important;
+  color: #da0066 !important;
 }
 
 .bg-gray {
@@ -400,7 +400,7 @@ span:hover {
 }
 
 .bg-color {
-  background-color: #12c2e9 !important;
+  background-color: #da0066 !important;
 }
 
 .bg-color .primery-shadow {
@@ -1174,18 +1174,18 @@ span:hover {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: #12c2e9;
+  background: #da0066;
   background: -webkit-gradient(
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
 }
 
 .pace.pace-inactive {
@@ -1434,7 +1434,7 @@ span:hover {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #12c2e9;
+  background-color: #da0066;
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
@@ -1448,7 +1448,7 @@ span:hover {
   margin-top: -35px;
   width: 70px;
   height: 70px;
-  background-color: #12c2e9;
+  background-color: #da0066;
   opacity: 0.3;
 }
 
@@ -1457,7 +1457,7 @@ span:hover {
   margin-top: -12px;
   width: 30px;
   height: 30px;
-  border: 1px solid #12c2e9;
+  border: 1px solid #da0066;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
@@ -1509,7 +1509,7 @@ span:hover {
   line-height: 44px;
   font-size: 13px;
   font-weight: 900;
-  color: #12c2e9;
+  color: #da0066;
   left: 0;
   top: 0;
   height: 44px;
@@ -1527,7 +1527,7 @@ span:hover {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #12c2e9;
+  stroke: #da0066;
   stroke-width: 4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1775,13 +1775,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   padding: 7px 12px;
   border-radius: 10px;
 }
@@ -1879,13 +1879,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   border: transparent;
 }
 
@@ -1969,7 +1969,7 @@ span:hover {
 
 .navbar .navbar-nav .dropdown-item:hover {
   background: transparent;
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .navbar .dropdown-menu {
@@ -2009,7 +2009,7 @@ span:hover {
   content: "";
   width: 0px;
   height: 1px;
-  background: #12c2e9;
+  background: #da0066;
   position: absolute;
   left: 10px;
   top: 50%;
@@ -2064,7 +2064,7 @@ span:hover {
   text-align: left;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid #12c2e9;
+  border-bottom: 2px solid #da0066;
 }
 
 .navbar .search .search-form .close {
@@ -2532,7 +2532,7 @@ span:hover {
 }
 
 .slider .parallax-slider .caption .thin {
-  color: #12c2e9;
+  color: #da0066;
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2551,7 +2551,7 @@ span:hover {
 }
 
 .slider .parallax-slider .caption .thin span {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .slider .parallax-slider .caption h1 {
@@ -2825,13 +2825,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   border-radius: 15px;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
@@ -2945,13 +2945,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   z-index: -2;
 }
 
@@ -3025,13 +3025,13 @@ span:hover {
     linear,
     right top,
     left top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(right, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(right, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(right, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(right, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to left, #da0066, #c471ed, #8cf8ff);
   position: absolute;
   top: -5px;
   left: -5px;
@@ -3542,7 +3542,7 @@ span:hover {
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .works-header .capt .bactxt {
@@ -4044,7 +4044,7 @@ span:hover {
 }
 
 .about .ftbox ul li .icon {
-  color: #12c2e9;
+  color: #da0066;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -4158,7 +4158,7 @@ span:hover {
 }
 
 .agency .img .icon svg {
-  fill: #12c2e9;
+  fill: #da0066;
   width: 90px;
 }
 
@@ -4179,7 +4179,7 @@ span:hover {
   content: "";
   width: 30px;
   height: 1px;
-  background: #12c2e9;
+  background: #da0066;
   position: absolute;
   left: -40px;
   top: 45%;
@@ -4232,13 +4232,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   z-index: -2;
 }
 
@@ -4638,13 +4638,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   z-index: -1;
   opacity: 0.05;
 }
@@ -4701,7 +4701,7 @@ span:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #12c2e9;
+  background: #da0066;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -4715,7 +4715,7 @@ span:hover {
 
 .services .mas-item .icon {
   font-size: 45px;
-  color: #12c2e9;
+  color: #da0066;
   margin-bottom: 30px;
 }
 
@@ -4763,18 +4763,18 @@ span:hover {
 }
 
 .services .step-item .icon {
-  color: #12c2e9;
+  color: #da0066;
   background: -webkit-gradient(
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
@@ -4793,7 +4793,7 @@ span:hover {
 }
 
 .services .item .icon {
-  color: #12c2e9;
+  color: #da0066;
   font-size: 40px;
   margin-bottom: 40px;
 }
@@ -4852,13 +4852,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   z-index: -2;
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -4990,7 +4990,7 @@ span:hover {
   font-weight: 700;
   margin-bottom: 10px;
   color: transparent;
-  -webkit-text-stroke: 1px #12c2e9 ;
+  -webkit-text-stroke: 1px #da0066 ;
 }
 
 .serv-arch .item h5 {
@@ -5082,13 +5082,13 @@ span:hover {
 }
 
 .min-area .content ul.feat li h6 span {
-  color: #12c2e9;
+  color: #da0066;
   width: 30px;
   height: 30px;
   line-height: 30px;
   text-align: center;
   font-size: 13px;
-  border: 1px solid #12c2e9;
+  border: 1px solid #da0066;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -5248,14 +5248,14 @@ span:hover {
 }
 
 .portfolio .filtering span.active {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .portfolio .filtering span:after {
   content: "";
   width: 7px;
   height: 7px;
-  background: #12c2e9;
+  background: #da0066;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -5284,14 +5284,14 @@ span:hover {
 }
 
 .portfolio .filtering.smplx span.active {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .portfolio .filtering.smplx span:after {
   content: "";
   width: 7px;
   height: 7px;
-  background: #12c2e9;
+  background: #da0066;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -5488,7 +5488,7 @@ span:hover {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #12c2e9;
+  background-color: #da0066;
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -5499,7 +5499,7 @@ span:hover {
 }
 
 .portfolio-cr .filtering .active {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .portfolio-cr .filtering .active:after {
@@ -5592,7 +5592,7 @@ span:hover {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #12c2e9;
+  background-color: #da0066;
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -5603,7 +5603,7 @@ span:hover {
 }
 
 .portfolio-frl .filtering .active {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .portfolio-frl .filtering .active:after {
@@ -6298,7 +6298,7 @@ span:hover {
   position: absolute;
   content: "";
   width: 75px;
-  border-top: 2px dashed #12c2e9;
+  border-top: 2px dashed #da0066;
   top: 75px;
   right: -35px;
 }
@@ -6413,13 +6413,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   -webkit-transition: all 1.5s;
   -o-transition: all 1.5s;
   transition: all 1.5s;
@@ -6470,7 +6470,7 @@ span:hover {
   top: 50%;
   width: 5px;
   height: 1px;
-  background: #12c2e9;
+  background: #da0066;
 }
 
 /* ====================== [ Start tabs & list ] ====================== */
@@ -6517,13 +6517,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   opacity: 0;
   z-index: -1;
   -webkit-transition: all 0.7s;
@@ -6558,7 +6558,7 @@ span:hover {
 
 .team .item.cir .info span {
   font-size: 13px;
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .team .item .img {
@@ -6595,13 +6595,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   opacity: 0;
   z-index: -1;
   -webkit-transition: all 0.7s;
@@ -6610,7 +6610,7 @@ span:hover {
 }
 
 .team.bord .item:hover .img:after {
-  border-color: #12c2e9;
+  border-color: #da0066;
   opacity: 1;
   -webkit-transform: rotate(0deg) !important;
   -ms-transform: rotate(0deg) !important;
@@ -6653,7 +6653,7 @@ span:hover {
 
 .team.bord .item .info span {
   font-size: 13px;
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .team .slick-dots {
@@ -6661,7 +6661,7 @@ span:hover {
 }
 
 .team .slick-dots li.slick-active button {
-  background: #12c2e9;
+  background: #da0066;
 }
 
 .team .slick-dots li button {
@@ -6680,7 +6680,7 @@ span:hover {
   top: 4px;
   left: 4px;
   line-height: 1;
-  background: #12c2e9;
+  background: #da0066;
   opacity: 1;
 }
 
@@ -6934,7 +6934,7 @@ span:hover {
 
 .testimonials .arrows .next:hover,
 .testimonials .arrows .prev:hover {
-  border-color: #12c2e9;
+  border-color: #da0066;
 }
 
 .testimonials .arrows .prev {
@@ -7043,13 +7043,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   z-index: -4;
 }
 
@@ -7065,7 +7065,7 @@ span:hover {
 }
 
 .block-sec .testim-box .head-box h6 {
-  color: #12c2e9;
+  color: #da0066;
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
@@ -7123,11 +7123,11 @@ span:hover {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 1px solid #12c2e9;
+  border: 1px solid #da0066;
 }
 
 .block-sec .testim-box .slick-dots li.slick-active {
-  background: #12c2e9;
+  background: #da0066;
 }
 
 .block-sec .testim-box .slick-dots li button {
@@ -7176,7 +7176,7 @@ span:hover {
 }
 
 .blog .item .info .tag span {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .blog .item h5 {
@@ -7306,7 +7306,7 @@ span:hover {
 .blog-crv .item .content .info a {
   margin: 0 10px;
   font-weight: 400;
-  color: #12c2e9;
+  color: #da0066;
   font-size: 13px;
 }
 
@@ -7380,7 +7380,7 @@ span:hover {
 }
 
 .blog-grid .item .cont .info .tag {
-  color: #12c2e9;
+  color: #da0066;
   margin-left: 10px;
 }
 
@@ -7408,7 +7408,7 @@ span:hover {
   top: -40px;
   right: 15px;
   padding: 5px 15px;
-  background: #12c2e9;
+  background: #da0066;
   color: #222;
   font-size: 12px;
   font-weight: 500;
@@ -7463,13 +7463,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
+    from(#da0066),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#8cf8ff)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: -o-linear-gradient(left, #da0066, #c471ed, #8cf8ff);
+  background: linear-gradient(to right, #da0066, #c471ed, #8cf8ff);
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -7527,7 +7527,7 @@ span:hover {
 }
 
 .blog-list .item .info .tag span {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .blog-list .item h5 {
@@ -7561,7 +7561,7 @@ span:hover {
 .blog-pg .posts .item .content .tags a {
   font-size: 12px;
   font-weight: 500;
-  color: #12c2e9;
+  color: #da0066;
   padding-right: 20px;
   position: relative;
 }
@@ -7611,8 +7611,8 @@ span:hover {
 }
 
 .blog-pg .posts .pagination span.active a {
-  border-color: #12c2e9;
-  color: #12c2e9;
+  border-color: #da0066;
+  color: #da0066;
 }
 
 .blog-pg.blog-list .item {
@@ -7797,7 +7797,7 @@ span:hover {
 
 .blog-pg.single .comments-area .item .info h6 span {
   display: block;
-  color: #12c2e9;
+  color: #da0066;
   font-size: 12px;
   font-weight: 400;
   margin-top: 5px;
@@ -7898,7 +7898,7 @@ span:hover {
 }
 
 .call-action .content h6 {
-  color: #12c2e9;
+  color: #da0066;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -7907,7 +7907,7 @@ span:hover {
 }
 
 .call-action .content h6 span {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 .call-action .content h2 {
@@ -8307,7 +8307,7 @@ footer .item li .sm-post p {
 
 footer .item li .sm-post .date {
   font-size: 12px;
-  color: #12c2e9;
+  color: #da0066;
 }
 
 footer .item li .subscribe {
@@ -8334,7 +8334,7 @@ footer .item li .subscribe .subs {
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
-  background: #12c2e9;
+  background: #da0066;
   color: #000;
 }
 
@@ -8369,7 +8369,7 @@ footer .item .copy-right p {
 }
 
 footer .item .copy-right p a {
-  color: #12c2e9;
+  color: #da0066;
 }
 
 /* ====================== [ End Footer ] ====================== */
@@ -8498,7 +8498,7 @@ footer .item .copy-right p a {
 
   .nav-scroll .navbar-collapse .active,
   .light .navbar-collapse .active {
-    color: #12c2e9 !important;
+    color: #da0066 !important;
   }
 
   .navbar .search {
@@ -8555,7 +8555,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .navbar-nav .nav-link:hover {
-    color: #12c2e9;
+    color: #da0066;
   }
 
   .slider .parallax-slider .caption.dig {

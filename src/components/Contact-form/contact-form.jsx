@@ -4,6 +4,7 @@ import { Formik, Form, Field } from "formik";
 
 const ContactForm = () => {
   const messageRef = React.useRef(null);
+
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -13,7 +14,9 @@ const ContactForm = () => {
     }
     return error;
   }
+
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -29,19 +32,28 @@ const ContactForm = () => {
                 }}
                 onSubmit={async (values) => {
                   await sendMessage(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // show message
 
-                  messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
-                  // Reset the values
-                  values.name = "";
-                  values.email = "";
-                  values.message = "";
-                  // clear message
+                  try {
+                    await fetch('https://script.google.com/a/macros/interrapidisimo.com/s/AKfycbw52bSLBn0OhBYnZkGSKpdlON7EANqajWVjtcAClXZnpS_A2CzzxqnbgPnhM9X9iUnQ/exec', {
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                      },
+                      body: new URLSearchParams(values).toString(),
+                    });
+
+                    messageRef.current.innerText = "Your Message has been successfully sent. I will contact you soon.";
+                    values.name = "";
+                    values.email = "";
+                    values.message = "";
+                  } catch (error) {
+                    console.error("Error sending data:", error);
+                    messageRef.current.innerText = "An error occurred while sending the message.";
+                  }
+
                   setTimeout(() => {
-                    messageRef.current.innerText = ''
-                  }, 2000)
+                    messageRef.current.innerText = "";
+                  }, 2000);
                 }}
               >
                 {({ errors, touched }) => (
@@ -54,7 +66,7 @@ const ContactForm = () => {
                           type="text"
                           name="name"
                           placeholder="Name"
-                          required="required"
+                          required
                         />
                       </div>
                       <div className="form-group">
@@ -77,7 +89,7 @@ const ContactForm = () => {
                         name="message"
                         placeholder="Message"
                         rows="4"
-                        required="required"
+                        required
                       />
                     </div>
 
