@@ -19,7 +19,7 @@ const CallToAction = ({img}) => {
                   <h2 className="wow words chars splitting" data-splitting>
                     TRAE TU MARCA
                   </h2>
-                  <b className="back-color">A LA AGENCIA DONDE LA VALENTIA ES LA NORMA</b>
+                  <b className="back-color">A LA AGENCIA DONDE LA VALENTIA <br/>ES LA NORMA</b>
                     .
                 </Split>
               </div>
@@ -33,7 +33,7 @@ const CallToAction = ({img}) => {
                   className="butn bord curve wow fadeInUp"
                   data-wow-delay=".5s"
                 >
-                  <span>Get In Touch</span>
+                  <span>Contacto</span>
                 </a>
               </Link>
             </div>

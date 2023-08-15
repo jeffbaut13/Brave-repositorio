@@ -25,14 +25,18 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email</h6>
-                    <p>contacto@brave.com</p>
+                    <p>
+                      <a href="mailto:comercial.1@brave.com.co"> contacto@brave.com </a>
+                      </p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Telefono</h6>
-                    <p>+57 300 123 4567</p>
+                    <p>
+                     <a href="tel:3203504047"> +57 300 123 4567 </a>
+                      </p>
                   </div>
                 </li>
               </ul>
@@ -122,7 +126,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p>
-                 BrAVE © 2023. {/* Vie Template. Made with passion by
+                    BRAVE © 2023. {/* Vie Template. Made with passion by
                   <Link
                     href="https://themeforest.net/user/themescamp/portfolio"
                     

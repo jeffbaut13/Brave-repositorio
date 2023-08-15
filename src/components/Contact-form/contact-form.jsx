@@ -91,7 +91,7 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-5 offset-lg-1">
             <div className="cont-info">
-              <h4 className="fw-700 color-font mb-50">Contact Info.</h4>
+              <h4 className="fw-700 color-font mb-50">Información de contacto.</h4>
               <h3 className="wow" data-splitting>
                 {ContactFromDate.title}
               </h3>

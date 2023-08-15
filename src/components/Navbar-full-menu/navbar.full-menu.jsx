@@ -86,19 +86,21 @@ const NavbarFullMenu = ({ theme }) => {
             <div className="col-lg-3 col-md-4">
               <div className="cont-info">
                 <div className="item">
-                  <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <h6>Teléfono :</h6>
+                  <p>
+                  <a href="tel:3203504047"> +57 300 123 4567 </a>
+                    </p>
                 </div>
                 <div className="item">
-                  <h6>Address :</h6>
+                  <h6>Oficina principal :</h6>
                   <p>
-                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                    Calle 18 # 65A - 03, Bogotá Colombia
                   </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Vie_website@gmail.com</a>
+                    <a href="mailto:comercial.1@brave.com.co">comercial.1@brave.com.co</a>
                   </p>
                 </div>
               </div>
