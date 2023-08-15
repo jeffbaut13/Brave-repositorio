@@ -7,6 +7,7 @@ import ProjectIntroduction from "../../components/Project-introduction/project-i
 import ProjectGallery from "../../components/Project-gallery/project-gallery";
 
 const alCarrito = () => {
+  const prueba = "";
   const Project = ProjectDate;
   const content = ProjectDate.intro.content;
   const spmList = ProjectDate.intro.spmList;
