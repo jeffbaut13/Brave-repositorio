@@ -212,7 +212,7 @@ const Blogs4 = () => {
                           </p>
                         </div>
                         <div className="more">
-                          <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
                             Conoce más
                           </a>
                         </div>
@@ -248,7 +248,7 @@ const Blogs4 = () => {
                           </p>
                         </div>
                         <div className="more">
-                          <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
                             Conoce más
                           </a>
                         </div>
@@ -284,7 +284,7 @@ const Blogs4 = () => {
                           </p>
                         </div>
                         <div className="more">
-                        <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
                             Conoce más
                           </a>
                         </div>
@@ -319,7 +319,7 @@ const Blogs4 = () => {
                           </p>
                         </div>
                         <div className="more">
-                        <a target="_blank" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
                             Conoce más
                           </a>
                         </div>
