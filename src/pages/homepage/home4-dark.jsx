@@ -16,8 +16,6 @@ import Services6 from "../../components/Services6/services6";
 import Clients from "../../components/Clients/clients";
 import CallToAction from "../../components/Call-to-action/call-to-action";
 
-
-
 const Homepage4 = () => {
   const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
@@ -33,25 +31,11 @@ const Homepage4 = () => {
         MainContent.current.style.marginTop = slidHeight + "px";
       }
     });
-    /* var navbar = navbarRef.current,
-      logo = logoRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    }); */
   }, [fixedSlider, MainContent]);
 
   return (
     <DarkTheme>
-      <NavbarFullMenu  />         
+      <NavbarFullMenu />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <AboutUs2 />
@@ -66,5 +50,3 @@ const Homepage4 = () => {
 };
 
 export default Homepage4;
-
-

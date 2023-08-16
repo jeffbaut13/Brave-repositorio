@@ -16,11 +16,11 @@ const IntroWithSlider = ({ sliderRef }) => {
   const [screenWidth, setScreenWidth] = useState(null);
   const [screenHeight, setScreenHeight] = useState(null);
   const [isClicked, setIsClicked] = useState(false);
-  
+
   const handleClick = () => {
     setIsClicked(true);
   };
-  
+
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
@@ -29,14 +29,12 @@ const IntroWithSlider = ({ sliderRef }) => {
 
     handleResize(); // Actualizar los valores iniciales al cargar la página
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
-  console.log("W" + screenWidth + "H" + screenHeight);
 
   const isMobile = screenWidth <= 768; // Definir el ancho máximo para considerar dispositivos móviles
 
@@ -118,8 +116,8 @@ const IntroWithSlider = ({ sliderRef }) => {
                       muted={true}
                       controls={false}
                       url={isMobile ? slide.mobileVideo : slide.video} // Video diferente para dispositivos móviles
-                      width={screenWidth + 'px'}
-                      height={screenHeight + 'px'}
+                      width={screenWidth + "px"}
+                      height={screenHeight + "px"}
                     />
                   </div>
                   <div className="container">
@@ -127,9 +125,13 @@ const IntroWithSlider = ({ sliderRef }) => {
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30">
                           <Link href={slide.url} passHref>
-                            <h1 style={{ cursor: `pointer` }} className="braveCustom">
+                            <h1
+                              style={{ cursor: `pointer` }}
+                              className="braveCustom"
+                            >
                               {slide.title} <br />
-                              <span className="contenido titulo">{slide.content} <br />
+                              <span className="contenido titulo">
+                                {slide.content} <br />
                                 <span className="titulo_company">
                                   {slide.company}
                                 </span>
@@ -140,15 +142,18 @@ const IntroWithSlider = ({ sliderRef }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="Customvideo video bg-img parallaxie">
-                    <a id="play" className={`vid valign ${isClicked ? 'hidden' : ''}`} onClick={handleClick}>
-                      <div className="vid-butn">
-                        <i className="fas fa-play"></i>
-                        <span className="reproducir">
-                          Play
-                        </span>
-                      </div>
-                    </a>
+                  <div className="Customvideo bg-img parallaxie">
+                    <Link href={slide.url} passHref onClick={handleClick}>
+                      <section className="customIcon play">
+                        <a className="vid">
+                          <div className="vid-butn">
+                            <span className="icon">
+                              <i className="fas fa-play"></i>
+                            </span>
+                          </div>
+                        </a>
+                      </section>
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>

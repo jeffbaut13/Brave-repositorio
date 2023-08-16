@@ -24,6 +24,7 @@ const mundoSinPlastico = () => {
         DataDos={ProjectDescription}
         DataTres={ProjectVideo}
         next={ProjectDate.next}
+        slide={ProjectDate.video}
       />
     </>
   );

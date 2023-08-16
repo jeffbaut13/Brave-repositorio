@@ -9471,3 +9471,112 @@ section.next-prog.section-padding {
     padding: 0;
   }
 }
+.hidden{
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+.CustomVimeo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 7;
+  transform: translateX(-50%) translateY(-50%);
+}
+.ShowVid{
+  visibility: visible;
+  opacity: 1;
+}
+.iconoCerrar {
+  position: fixed !important;
+  top: 2%;
+  right: 3%;
+}
+.iconoAbrir {
+  position: fixed !important;
+  bottom: 2%;
+  right: 3%;
+  cursor: pointer;
+}
+.w-full {
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+}
+
+.customIcon .vid {
+  position: relative;
+  z-index: 8;
+}
+
+.customIcon .vid .vid-butn:hover .icon {
+  color: #fff;
+}
+
+.customIcon .vid .vid-butn:hover .icon:before {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.customIcon .vid .vid-butn .icon {
+  color: #212529;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 17px;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.customIcon .vid .vid-butn .icon:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.customIcon .vid .vid-butn .icon:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+#play .icon {
+
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+
+}
+section.play.customIcon {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+}
