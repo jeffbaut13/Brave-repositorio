@@ -36,7 +36,7 @@ const Blogs4 = () => {
     <section className="blog-crv sub-bg">
       <h2 style={{ display: "none" }}>&nbsp;</h2>
       <div className="stories">
-        <div className="container-fluid">
+        <div className="container-fluid customContainer">
           <div className="row">
             <div className="col-lg-6 no-padding">
               {!load ? (

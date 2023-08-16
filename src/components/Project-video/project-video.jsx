@@ -3,6 +3,7 @@ import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import ReactPlayer from "react-player";
 
+
 const ProjectVideo = ({ projectVideoDate, idvideo, slide }) => {
   console.clear();
   const [isOpen, setOpen] = useState(true);
@@ -65,9 +66,7 @@ const ProjectVideo = ({ projectVideoDate, idvideo, slide }) => {
               >
                 {/* ACA VA EL HGPTA ICONO */}
                 <div className="vid-butn">
-                  <span className="icon">
-                    <i className="fas fa-play"></i>
-                  </span>
+                    <img className="xcierre" src="/img/x.png"></img>
                 </div>
                 {/* ACA VA EL HGPTA ICONO */}
               </a>

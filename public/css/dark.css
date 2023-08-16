@@ -57,120 +57,27 @@
 
 
 @font-face {
-  font-family: 'HankenGrotesk-Black';
-  src: url('../fonts/HankenGrotesk-Black.ttf');
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-BlackItalic';
-  src: url('../fonts/HankenGrotesk-BlackItalic.ttf');
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
   font-family: 'HankenGrotesk-Bold';
-  src: url('../fonts/HankenGrotesk-Bold.ttf');
+  src: url('../fonts/HKGrotesk-Bold.ttf');
   font-weight: 700;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-BoldItalic';
-  src: url('../fonts/HankenGrotesk-BoldItalic.ttf');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-ExtraBold';
-  src: url('../fonts/HankenGrotesk-ExtraBold.ttf');
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-ExtraBoldItalic';
-  src: url('../fonts/HankenGrotesk-ExtraBoldItalic.ttf');
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-ExtraLight';
-  src: url('../fonts/HankenGrotesk-ExtraLight.ttf');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-ExtraLightItalic';
-  src: url('../fonts/HankenGrotesk-ExtraLightItalic.ttf');
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-Italic';
-  src: url('../fonts/HankenGrotesk-Italic.ttf');
-  font-weight: normal;
-  font-style: italic;
 }
 
 @font-face {
   font-family: 'HankenGrotesk-Light';
-  src: url('../fonts/HankenGrotesk-Light.ttf');
+  src: url('../fonts/HKGrotesk-Light.ttf');
   font-weight: 300;
 }
 
-@font-face {
-  font-family: 'HankenGrotesk-LightItalic';
-  src: url('../fonts/HankenGrotesk-LightItalic.ttf');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-Medium';
-  src: url('../fonts/HankenGrotesk-Medium.ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-MediumItalic';
-  src: url('../HankenGrotesk-MediumItalic.ttf');
-  font-weight: 500;
-  font-style: italic;
-}
-    
 @font-face {
   font-family: 'HankenGrotesk-Regular';
-  src: url('../HankenGrotesk-Regular.ttf');
-  font-weight: normal;
+  src: url('../fonts/HKGrotesk-Regular.ttf');
+  font-weight: 500;
 }
 
 @font-face {
   font-family: 'HankenGrotesk-SemiBold';
-  src: url('../HankenGrotesk-SemiBold.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-SemiBoldItalic';
-  src: url('../HankenGrotesk-SemiBoldItalic.ttf');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-Thin';
-  src: url('../HankenGrotesk-Thin.ttf');
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'HankenGrotesk-ThinItalic';
-  src: url('../HankenGrotesk-ThinItalic.ttf');
-  font-weight: 100;
-  font-style: italic;
+  src: url('../fonts/HKGrotesk-SemiBold.ttf');
+  font-weight: 600;
 }
 
 * {
@@ -194,7 +101,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: "HkGrotesk", sans-serif;
+
 }
 
 img {
@@ -211,6 +118,7 @@ a:hover {
 
 h1 {
   font-size: 55px;
+  font-family: "HankenGrotesk-Bold";
 }
 
 h2 {
@@ -1595,28 +1503,33 @@ h3.words.chars.splitting.main-title.wow.animated {
   position: relative;
 }
 .braveCustom{
-  font-weight: 600 !important;
+  padding-left: 0.6rem;
   line-height: 0.8 !important;
 }
 @media (max-width: 600px) {
   .contenido.titulo {
     font-size: 10px !important;
+    font-family: "HankenGrotesk-Regular";
   }
   .contenido.titulo .titulo_company{
-    font-weight: 100 !important;
       font-size: 8px !important;
+      font-family: "HankenGrotesk-Light";
   }
 
 }
 .contenido.titulo {
   margin-top: 10px;
   font-size: 1rem;
-  font-weight: 300 !important;
   line-height: 1.5;
+  font-family: "HankenGrotesk-Regular";
+  font-weight: 100;
 }
 .contenido.titulo .titulo_company{
-  font-weight: 100 !important;
     font-size: 1rem;
+    font-family: "HankenGrotesk-Light";
+    font-weight: 100 !important;
+    margin-bottom: 2rem;
+    padding-top: 0.4rem;
 }
 
 [data-overlay-dark] .container, 
@@ -2563,7 +2476,7 @@ h3.words.chars.splitting.main-title.wow.animated {
 .slider .parallax-slider .caption h1 {
   font-size: 80px;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #fff;
   opacity: 0;
   -webkit-transform: translateY(20px);
@@ -9579,4 +9492,16 @@ section.play.customIcon {
   position: absolute;
   bottom: 3%;
   right: 2%;
+}
+.customContainer{
+  max-width: 1500px;
+}
+.customContainer .swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xcierre{
+  width: 20px;
+  cursor: pointer;
 }
