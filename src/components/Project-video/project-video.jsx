@@ -43,7 +43,7 @@ const ProjectVideo = ({ projectVideoDate, idvideo, slide }) => {
                 {isClicked && (
                   <ReactPlayer
                     playing
-                    volume={0}
+                    volume={1}
                     loop={true}
                     controls
                     url={slide} // Video diferente para dispositivos móviles
