@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Brave</title>
         <link rel="icon" href="/img/favicon.svg" />
+        <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RFEzpZ"></script>
       </Head>
       
       <LoadingScreen />
