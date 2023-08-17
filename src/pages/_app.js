@@ -8,8 +8,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vie</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <title>Brave</title>
+        <link rel="icon" href="/img/favicon.svg" />
       </Head>
       
       <LoadingScreen />

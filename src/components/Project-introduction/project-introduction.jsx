@@ -17,11 +17,11 @@ const ProjectIntroduction = ({ content, spmList }) => {
               <p className="extra-text">
                 {content}
               </p>
-              <ul className="smp-list mt-30">
+              {/* <ul className="smp-list mt-30">
                 {spmList.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
