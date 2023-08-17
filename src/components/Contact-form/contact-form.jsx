@@ -23,8 +23,9 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">Get In Touch.</h4>
-              <Formik
+              <h4 className="fw-700 color-font mb-50">Ponte en contacto.</h4>
+              <div class="klaviyo-form-V2qaXP"></div>
+              {/* <Formik
                 initialValues={{
                   name: "",
                   email: "",
@@ -55,8 +56,8 @@ const ContactForm = () => {
                     messageRef.current.innerText = "";
                   }, 2000);
                 }}
-              >
-                {({ errors, touched }) => (
+              > */}
+               {/*  {({ errors, touched }) => (
                   <Form id="contact-form">
                     <div className="messages" ref={messageRef}></div>
                     <div className="controls">
@@ -91,14 +92,14 @@ const ContactForm = () => {
                         rows="4"
                         required
                       />
-                    </div>
+                    </div> */}
 
-                    <button type="submit" className="butn bord">
+                    {/* <button type="submit" className="butn bord">
                       <span>Send Message</span>
                     </button>
                   </Form>
                 )}
-              </Formik>
+              </Formik> */}
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1">
