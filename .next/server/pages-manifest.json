@@ -1,6 +1,16 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/404": "pages/404.js"
+  "/contacto": "pages/contacto.html",
+  "/homepage/home4-dark": "pages/homepage/home4-dark.html",
+  "/": "pages/index.html",
+  "/proyectos": "pages/proyectos.html",
+  "/proyectos/alcarrito": "pages/proyectos/alcarrito.html",
+  "/proyectos/inter": "pages/proyectos/inter.html",
+  "/proyectos/mundosinplastico": "pages/proyectos/mundosinplastico.html",
+  "/proyectos/pagoencasa": "pages/proyectos/pagoencasa.html",
+  "/proyectos/project-details2-dark": "pages/proyectos/project-details2-dark.html",
+  "/sobre-nosotros": "pages/sobre-nosotros.html",
+  "/_error": "pages/_error.js"
 }
