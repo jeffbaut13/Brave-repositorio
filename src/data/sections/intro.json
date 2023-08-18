@@ -8,7 +8,7 @@
         "video": "https://vimeo.com/838807359?share=copy",
         "mobileVideo": "https://vimeo.com/840510890?share=copy",
         "idVimeo":"838807359",
-        "url": "/project-details2/inter"
+        "url": "/proyectos/inter"
     },
     {
         "id": 2,
@@ -20,7 +20,7 @@
         "video": "https://vimeo.com/838806090?share=copy",
         "mobileVideo": "https://vimeo.com/841369867?share=copy",
         "idVimeo":"127203262",
-        "url": "/project-details2/mundosinplastico"
+        "url": "/proyectos/mundosinplastico"
     },
     {
         "id": 3,
@@ -31,7 +31,7 @@
         "mobileImage": "",
         "video": "https://vimeo.com/838815313?share=copy",
         "mobileVideo": "https://vimeo.com/841370458?share=copy",
-        "url": "/project-details2/alcarrito"
+        "url": "/proyectos/alcarrito"
     },
     {
         "id": 4,
@@ -42,6 +42,6 @@
         "mobileImage": "",
         "video": "https://vimeo.com/838806054?share=copy",
         "mobileVideo": "https://vimeo.com/841369930?share=copy",
-        "url": "/project-details2/pagoencasa"
+        "url": "/proyectos/pagoencasa"
     }
 ]

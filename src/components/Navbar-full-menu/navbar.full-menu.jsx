@@ -46,7 +46,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/campanas/campana`}>
+                      <Link href={`/proyectos`}>
                         <a className="link">
                           <span className="nm">02.</span>Campañas
                         </a>
@@ -56,7 +56,7 @@ const NavbarFullMenu = ({ theme }) => {
 
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about/about-dark`}>
+                      <Link href={`/sobre-nosotros`}>
                         <a className="link">
                           <span className="nm">02.</span>Nosotros
                         </a>
@@ -66,7 +66,7 @@ const NavbarFullMenu = ({ theme }) => {
 
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact/contact-dark`}>
+                      <Link href={`/contacto`}>
                         <a className="link">
                           <span className="nm">05.</span>Contacto
                         </a>

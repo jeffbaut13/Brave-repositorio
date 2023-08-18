@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/campanas/campana": [
+    "/proyectos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/campanas/campana.js"
+      "static/chunks/pages/proyectos.js"
+    ],
+    "/proyectos/mundosinplastico": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/proyectos/mundosinplastico.js"
     ]
   },
   "ampFirstPages": []
