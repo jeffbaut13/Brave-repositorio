@@ -25,6 +25,7 @@ const ContactForm = () => {
             <div className="form md-mb50">
               <h4 className="fw-700 color-font mb-50">Ponte en contacto.</h4>
               <div className="klaviyo-form-V2qaXP"></div>
+              
               {/* <Formik
                 initialValues={{
                   name: "",
