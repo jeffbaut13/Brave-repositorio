@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import React from "react";
-
 import DarkTheme from "../layouts/Dark";
 import ContactHeader from "../components/Contact-header/contact-header";
 import ContactForm from "../components/Contact-form/contact-form";
