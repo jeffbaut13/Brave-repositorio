@@ -1553,9 +1553,10 @@ h3.words.chars.splitting.main-title.wow.animated {
   left: 2px;
   text-align: start;
 }
-.Vimeo{
+.Vimeo {
   width: 100%;
   height: 100%;
+  transform: translateY(-5%);
 }
 
 [data-overlay-dark]:before,
@@ -1682,8 +1683,8 @@ h3.words.chars.splitting.main-title.wow.animated {
 }
 
 .sec-head h3 {
-  font-size: 48px;
-  font-weight: 500;
+  font-size: 3rem;
+  font-family: 'HankenGrotesk-Bold';
 }
 
 .sec-head h2 {
@@ -9652,4 +9653,10 @@ section.play.customIcon {
   .contacoCall {
     width: 100%;
   }
+}
+
+b.wow.words.chars.splitting.animated {
+  font-size: 3rem;
+  line-height: 50px;
+  font-family: 'HankenGrotesk-Bold';
 }

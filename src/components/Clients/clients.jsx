@@ -8,7 +8,7 @@ const Clients = ({ theme }) => {
   return (
     <section className="clients section-padding">
       <div className="container-fluid p-0 m-0">
-        <div className="row">
+        <div className="row p-0 m-0">
           <div className="col-lg-4 valign md-mb50 p-0 m-0">
             <div className="sec-head mb-0 p-0">
               {/* <h6 className="wow fadeIn" data-wow-delay=".5s">
