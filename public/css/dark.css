@@ -373,6 +373,8 @@ span:hover {
 
 .section-padding {
   padding: 120px 0;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .section-ptb {
@@ -1668,7 +1670,7 @@ h3.words.chars.splitting.main-title.wow.animated {
 /* ====================== [ Start Heading ] ====================== */
 .sec-head {
   position: relative;
-  margin: 0 auto 80px;
+  margin: 0;
 }
 
 .sec-head h6 {

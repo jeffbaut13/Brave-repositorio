@@ -5,13 +5,12 @@ import Split from "../Split";
 import Link from "next/link";
 
 const Clients = ({ theme }) => {
-
   return (
     <section className="clients section-padding">
-      <div className="container">
+      <div className="container-fluid p-0 m-0">
         <div className="row">
-          <div className="col-lg-4 valign md-mb50">
-            <div className="sec-head mb-0">
+          <div className="col-lg-4 valign md-mb50 p-0 m-0">
+            <div className="sec-head mb-0 p-0">
               {/* <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Mejores clientes
               </h6> */}
@@ -23,7 +22,6 @@ const Clients = ({ theme }) => {
             </div>
           </div>
           <div className="col-lg-8">
-
             <div className="row iconosClientes">
               {ClientsData.slice(0, 2).map((item) => (
                 <div key={item.id} className="col-lg-3 brands">
@@ -35,16 +33,17 @@ const Clients = ({ theme }) => {
                         <img src={item.darkImage} alt="" />
                       )}
                       <Split>
-                        <Link href={`https://${item.url}`} passHref data-splitting>
-
+                        <Link
+                          href={`https://${item.url}`}
+                          passHref
+                          data-splitting
+                        >
                           <a
                             className="link words chars splitting"
                             target="_blank"
-
                           >
                             {item.url}
                           </a>
-
                         </Link>
                       </Split>
                     </div>
@@ -52,7 +51,6 @@ const Clients = ({ theme }) => {
                 </div>
               ))}
             </div>
-
           </div>
         </div>
       </div>

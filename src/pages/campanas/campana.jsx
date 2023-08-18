@@ -1,12 +1,12 @@
 import React from "react";
-import blog3Data from "../../data/blog3.json";
+import blog2Data from "../../data/blog2.json";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
-import BlogDetails from "../../components/Blog-details/blog-details";
+import BlogListed from "../../components/Blog-list/blog-list";
 import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
 
-const BlogDetailsDark = () => {
+const BlogListDark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -36,13 +36,14 @@ const BlogDetailsDark = () => {
       </div>
       <Navbar nr={navbarRef} lr={logoRef} />
       <PageHeader
-        title="Blog Details."
+        className="sub-bg"
+        title="Our News."
         paragraph="All the most current news and events of our creative team."
       />
-          <BlogDetails blog={"blog"} />
-          <Footer />
+      <BlogListed blogs={blog2Data} />
+      <Footer />
     </DarkTheme>
   );
 };
 
-export default BlogDetailsDark;
+export default BlogListDark;
