@@ -111,6 +111,9 @@ body {
   font-family: "HankenGrotesk-Regular";
 
 }
+.titQuienSomos{
+  font-family: "HankenGrotesk-Bold";
+}
 
 img {
   width: 100%;
@@ -486,6 +489,7 @@ h3.words.chars.splitting.main-title.wow.animated {
 
 .fw-700 {
   font-weight: 700 !important;
+  color: #ffbc00 !important;
 }
 
 .fw-800 {
@@ -3373,7 +3377,7 @@ h2.words.chars.splitting.main-title.wow.dos.animated {
 }
 
 .pages-header .cont h1 {
-  font-size: 55px;
+  font-size: 2.5rem;
 }
 
 .pages-header .half {
@@ -7236,7 +7240,6 @@ h2.words.chars.splitting.main-title.wow.dos.animated {
 
 .blog-crv .item .content {
   padding: 30px 65px;
-  text-align: center;
 }
 
 .blog-crv .item .content .tags {
@@ -9656,4 +9659,17 @@ b.wow.words.chars.splitting.animated {
   font-size: 3rem;
   line-height: 50px;
   font-family: 'HankenGrotesk-Bold';
+}
+.cont.mt-100.mb-50 {
+  display: flex;
+}
+.imgBola{
+  width: 300px;
+  transform: translateX(10px);
+}
+h1.fw-700.sobreNosotros {
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  transform: translateX(-10%);
 }

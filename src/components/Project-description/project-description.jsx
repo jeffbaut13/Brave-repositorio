@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectDescription = ({ projectDescriptionData }) => {
+const ProjectDescription = ({ projectDescriptionData, projectDescriptionDataDos }) => {
   return (
     <section className="intro-section section-padding">
       <div className="container">
@@ -15,6 +15,8 @@ const ProjectDescription = ({ projectDescriptionData }) => {
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
               <p className="extra-text">{projectDescriptionData}</p>
+              <br/>
+              <p className="extra-text">{projectDescriptionDataDos}</p>
             </div>
           </div>
         </div>

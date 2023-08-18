@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectIntroduction = ({ content, spmList }) => {
+const ProjectIntroduction = ({ content, contentDos, spmList }) => {
   return (
     <section className="intro-section section-padding campanas">
       <div className="container">
@@ -16,6 +16,9 @@ const ProjectIntroduction = ({ content, spmList }) => {
             <div className="text js-scroll__content">
               <p className="extra-text">
                 {content}
+              </p><br/>
+              <p className="extra-text">
+                {contentDos}
               </p>
               {/* <ul className="smp-list mt-30">
                 {spmList.map((item) => (

@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/proyectos.js"
     ],
-    "/proyectos/mundosinplastico": [
+    "/sobre-nosotros": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/proyectos/mundosinplastico.js"
+      "static/chunks/pages/sobre-nosotros.js"
     ]
   },
   "ampFirstPages": []

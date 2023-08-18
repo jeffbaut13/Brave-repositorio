@@ -9,19 +9,22 @@ import ProjectGallery from "../../components/Project-gallery/project-gallery";
 const pagoEnCasa = () => {
   const Project = ProjectDate;
   const content = ProjectDate.intro.content;
+  const contentDos = ProjectDate.intro.contentDos;
   const spmList = ProjectDate.intro.spmList;
   const ProjectDescription = ProjectDate.description.content;
+  const ProjectDescriptionDos = ProjectDate.description.contentDos
   const ProjectVideo = ProjectDate.videoLink;
 
   return (
     <>
       <NavbarFullMenu />
       <ProjectDetails2Header projectHeaderData={Project} />
-      <ProjectIntroduction content={content} spmList={spmList} />
+      <ProjectIntroduction content={content} spmList={spmList} contentDos={contentDos}/>
       <ProjectGallery images={Project.gallery} />
       <ProjectDetails2Dark
         data={Project.projectHeaderImage}
         DataDos={ProjectDescription}
+        DataCuatro={ProjectDescriptionDos}
         DataTres={ProjectVideo}
         next={ProjectDate.next}
         slide={ProjectDate.video}

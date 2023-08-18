@@ -3,7 +3,7 @@
         "id": 1,
         "title": "#WEGO",
         "content": "Los salarios y contratos de las jugadoras no se acercan en lo mínimo al de sus colegas masculinos, además, hay jugadoras a las que se les hace contrato por máximo 4 meses al año. Por esto, antes, durante y después de su temporada deportiva tienen que buscar trabajos alternos para cubrir sus gastos. Así que decidimos hacer algo.",
-        "image": "/img/blog/l1.jpg",
+        "image": "/img/blog/WE-GO-BANNER-CAMPAÑAS.jpg",
         "tags": ["WEGO ,FUTBOL ,LINDA CAICEDO"],
         "date": {
             "day": "Noviembre ",
@@ -14,7 +14,7 @@
         "id": 2,
         "title": "Mundo sin Plástico",
         "content": "La contaminación por el uso indebido del plástico está llegando a un punto de no retorno. Actualmente, existen 3 grandes islas de estos desechos flotando libremente por los océanos, una de ellas supera el tamaño del estado de Texas en los Estados Unidos. Inter Rapidísimo decidió hacer algo, promover el empleo responsable del plástico en Colombia, o usar alternativas a este material, como su nueva bolsa hecha a base de yuca que al contacto con el agua, se convierte en comida para peces.",
-        "image": "/img/blog/l2.jpg",
+        "image": "/img/blog/MUNDO-SIN-PLASTICO-BANNER-CAMPAÑAS.jpg",
         "tags": ["MUNDO SIN PLASTICO ,BALLENAS ,MEDIO AMBIENTE"],
         "date": {
             "day": "MARZO ",
@@ -24,8 +24,8 @@
     {
         "id": 3,
         "title": "Alcarrito",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l3.jpg",
+        "content": "En Colombia, el comercio electrónico y el emprendimiento han experimentado un crecimiento constante. Tanto es así que, según un informe del 2021 de la Cámara Colombiana de Comercio Electrónico, el comercio electrónico ha sido categorizado como un campo lleno de oportunidades. Este fenómeno ha traído consigo diversos desafíos, ya que para los emprendedores es cada vez más crucial lograr entregas más eficientes en términos de tiempo y con la menor fricción de costos posible.",
+        "image": "/img/blog/ALCARRITO-BANNER-CAMPAÑAS.jpg",
         "tags": ["MINIMAL ,MODERN ,DESIGN"],
         "date": {
             "day": "AGOSTO",
@@ -35,8 +35,8 @@
     {
         "id": 4,
         "title": "Pago en Casa",
-        "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
-        "image": "/img/blog/l3.jpg",
+        "content": "La pandemia trajo consigo un crecimiento rápido de transacciones y compras por internet, tristemente, también trajo consigo, estafas y pérdidas en emprendimientos y comercios que apenas se estaban adaptando a este modelo de negocio electrónico.",
+        "image": "/img/blog/PAGO-EN-CASA-BANNER-CAMPAÑAS.jpg",
         "tags": ["MINIMAL ,MODERN ,DESIGN"],
         "date": {
             "day": "AGOSTO",

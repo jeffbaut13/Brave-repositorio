@@ -6,40 +6,30 @@
   "projectHeaderImageMobil": "/img/portfolio/project2/carritoBraveMovile.jpg",
   "videoLink": "766908163",
   "video": "https://vimeo.com/766908163",
-  "clientURLName": "Envato.com",
-  "date": "6 August 2022",
+  "clientURLName": "ALCARRITO",
+  "date": "NOV 2022",
   "next": "/img/portfolio/project2/circuloAlcarrito.jpg",
   "categories": [
     {
       "id": 1,
-      "name": "Web Design",
+      "name": "CREATIVITY",
       "link": "#"
     },
     {
       "id": 2,
-      "name": "WordPress",
+      "name": "FILMS",
       "link": "#"
     }
   ],
   "tags": [
     {
       "id": 1,
-      "name": "Minimal",
-      "link": "#"
-    },
-    {
-      "id": 2,
-      "name": "Modern",
-      "link": "#"
-    },
-    {
-      "id": 3,
-      "name": "Design",
+      "name": "E-COMMERCE",
       "link": "#"
     }
   ],
   "intro": {
-    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+    "content": "En Colombia, el comercio electrónico y el emprendimiento han experimentado un crecimiento constante. Tanto es así que, según un informe del 2021 de la Cámara Colombiana de Comercio Electrónico, el comercio electrónico ha sido categorizado como un campo lleno de oportunidades. Este fenómeno ha traído consigo diversos desafíos, ya que para los emprendedores es cada vez más crucial lograr entregas más eficientes en términos de tiempo y con la menor fricción de costos posible.",
     "spmList": [
       {
         "id": 1,
@@ -67,6 +57,6 @@
     "/img/portfolio/project2/1400_600_alcarrito.jpg"
   ],
   "description": {
-    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    "content": "Ante esta realidad decidimos darle vida a Alcarrito.com, el primer marketplace ideado como producto desde la agencia para desafiar el mercado, un sitio donde la letra pequeña no existe, donde el objetivo es hacer un comercio electrónico más justo para todos los actores del ecosistema. La campaña fue una respuesta a los abusos y la falta de empatía con los emprendedores del país."
   }
 }
