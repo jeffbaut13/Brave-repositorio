@@ -17,15 +17,14 @@ const CallToAction = ({img}) => {
                     
                   </h6>
                   <h2 className="wow words chars splitting" data-splitting>
-                    TRAE TU MARCA
+                  
                   </h2>
-                  <b className="">A LA AGENCIA DONDE LA VALENTIA <br/>ES LA NORMA</b>
-                    .
+                  <b className="wow words chars splitting" data-splitting>Trae tu marca a la agencia donde la valentia es la norma.</b>
                 </Split>
               </div>
             </div>
 
-            <div className="col-md-4 col-lg-3 valign">
+            <div className="contacoCall">
               <Link
                 href={`/contact/contact-dark`}
               >

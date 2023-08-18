@@ -96,7 +96,7 @@ html {
 }
 
 body {
-  color: #fff;
+  color: #ffffff;
   background: #111215;
   line-height: 1.5;
   font-weight: 400;
@@ -154,10 +154,10 @@ h6 {
 }
 
 p {
-  color: #a4a7b1;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 300;
-  line-height: 2;
+  line-height: 20px;
   margin: 0;
 }
 
@@ -173,6 +173,9 @@ span:hover {
 
 .container {
   max-width: 1200px;
+}
+.container.hom {
+  max-width: 600px;
 }
 
 .custom-font {
@@ -417,8 +420,7 @@ span:hover {
   justify-content: center;
 }
 h3.words.chars.splitting.main-title.wow.animated {
-  text-align: center;
-  font-size: 4rem !important;
+  font-size: 2rem !important;
 }
 
 .primery-shadow {
@@ -1712,6 +1714,24 @@ h3.words.chars.splitting.main-title.wow.animated {
   line-height: 1.5;
   margin-bottom: 15px;
 }
+h2.words.chars.splitting.main-title.wow.animated.uno {
+  margin: 0;
+  line-height: 50px;
+  font-weight: 900;
+}
+h2.words.chars.splitting.main-title.wow.dos.animated {
+  background-color: #ffbc00;
+  max-width:300px;
+  color: #0f1217;
+  line-height: 40px;
+  font-weight: 900;
+  margin-top: 5px;
+  text-align: center;
+}
+.hClient{
+  font-weight: 900 !important;
+ 
+}
 
 .extra-title {
   font-weight: 700;
@@ -1751,7 +1771,7 @@ h3.words.chars.splitting.main-title.wow.animated {
 /* ====================== [ End Heading ] ====================== */
 /* ====================== [  Start Button Style ] ====================== */
 .butn {
-  padding: 15px 35px;
+  padding: 20px 100px;
   font-size: 13px;
   border: 1px solid transparent;
   -webkit-transition: all 0.4s;
@@ -9506,4 +9526,10 @@ section.play.customIcon {
 .xcierre{
   width: 20px;
   cursor: pointer;
+}
+.contacoCall {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

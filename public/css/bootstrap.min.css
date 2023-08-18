@@ -157,8 +157,8 @@ dfn {
 
 b,
 strong {
-  font-weight: bolder;
-  font-size: 190%;
+  font-weight: 900;
+  font-size: 220%;
 }
 
 small {
@@ -1525,7 +1525,7 @@ pre code {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
-    max-width: 75%;
+    max-width: 55%;
   }
 
   .col-lg-10 {

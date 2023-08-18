@@ -6,7 +6,7 @@ import AboutUs2Date from "../../data/sections/about-us2.json";
 const AboutUs2 = () => {
   return (
     <div className="about section-padding">
-      <div className="container">
+      <div className="container hom">
         <div>
           {/* <div className="col-lg-5">
             <div className="img-mons sm-mb30">
@@ -41,12 +41,14 @@ const AboutUs2 = () => {
                 <h3 className="wow color-font">{AboutUs2Date.smallTitle}</h3>
               </div> */}
               <Split>
-                <h3
-                  className="words chars splitting main-title wow"
+                <h2
+                  className="words chars splitting main-title wow uno"
                   data-splitting
                 >
                   {AboutUs2Date.title.first} <br /> {AboutUs2Date.title.second}
-                </h3>
+                </h2>
+                <h2 className="words chars splitting main-title wow dos"
+                  data-splitting>no sea olvidado.</h2>
               </Split>
               <Split>
                 <p className="words chars splitting wow txt" data-splitting>
