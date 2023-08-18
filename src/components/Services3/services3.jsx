@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import cardMouseEffect from "../../common/cardMouseEffect";
-import { Pilares } from "./pilares";
+import { Pilares } from "../ServicesPilares/Pilares";
 
 let creativityColor = "#FFBC00";
 let strategyColor = "#FF0068";
