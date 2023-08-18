@@ -91,44 +91,28 @@ const Blogs4 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
-                        <img
-                          className="thumparallax"
-                          src="/img/blog/ballena.jpg"
-                          alt=""
-                        />
+                        <img src="/img/blog/ballena.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
-                        <img
-                          className="thumparallax"
-                          src="/img/blog/sapo.jpg"
-                          alt=""
-                        />
+                        <img src="/img/blog/sapo.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
-                        <img
-                          className="thumparallax"
-                          src="/img/blog/tortuga.jpg"
-                          alt=""
-                        />
+                        <img src="/img/blog/tortuga.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
-                        <img
-                          className="thumparallax"
-                          src="/img/blog/cangrejo.jpg"
-                          alt=""
-                        />
+                        <img src="/img/blog/cangrejo.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
@@ -189,7 +173,7 @@ const Blogs4 = () => {
                         <div className="tags">
                           <Link href="/blog/blog-dark">Tendencias</Link>
                         </div>
-                       {/*  <div className="info">
+                        {/*  <div className="info">
                           <Link href="/blog/blog-dark">
                             <a>
                               <i className="far fa-clock"></i>
@@ -201,18 +185,24 @@ const Blogs4 = () => {
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                            THE AD FORUM PHNX 2023
+                              THE AD FORUM PHNX 2023
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                          Print: Advertising photography Plastic bearded humpback whale.<br/>Award: Bronze campaign.
-
+                            Print: Advertising photography Plastic bearded
+                            humpback whale.
+                            <br />
+                            Award: Bronze campaign.
                           </p>
                         </div>
                         <div className="more">
-                          <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.adforum.com/torch/phnx-2023/winners/"
+                          >
                             Conoce más
                           </a>
                         </div>
@@ -225,7 +215,7 @@ const Blogs4 = () => {
                         <div className="tags">
                           <Link href="/blog/blog-dark">Tendencias</Link>
                         </div>
-                       {/*  <div className="info">
+                        {/*  <div className="info">
                           <Link href="/blog/blog-dark">
                             <a>
                               <i className="far fa-clock"></i>
@@ -237,18 +227,23 @@ const Blogs4 = () => {
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                            THE AD FORUM PHNX 2023
+                              THE AD FORUM PHNX 2023
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                          Print: Advertising photography Plastic cave frog.<br/>Award: Bronze campaign.
-
+                            Print: Advertising photography Plastic cave frog.
+                            <br />
+                            Award: Bronze campaign.
                           </p>
                         </div>
                         <div className="more">
-                          <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.adforum.com/torch/phnx-2023/winners/"
+                          >
                             Conoce más
                           </a>
                         </div>
@@ -279,12 +274,16 @@ const Blogs4 = () => {
                         </div>
                         <div className="text">
                           <p>
-                          Print: Advertising photography Hawksbill turtle with plastic coat <br/> Award: Bronze campaign.
-
+                            Print: Advertising photography Hawksbill turtle with
+                            plastic coat <br /> Award: Bronze campaign.
                           </p>
                         </div>
                         <div className="more">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.adforum.com/torch/phnx-2023/winners/"
+                          >
                             Conoce más
                           </a>
                         </div>
@@ -309,17 +308,24 @@ const Blogs4 = () => {
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                              <span>REVISTA Lurzers Archive 223 (US edition). 2/23</span>
+                              <span>
+                                REVISTA Lurzers Archive 223 (US edition). 2/23
+                              </span>
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                          Plastic court hermit crab <br/> Social + Environment
+                            Plastic court hermit crab <br /> Social +
+                            Environment
                           </p>
                         </div>
                         <div className="more">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.adforum.com/torch/phnx-2023/winners/">
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.adforum.com/torch/phnx-2023/winners/"
+                          >
                             Conoce más
                           </a>
                         </div>

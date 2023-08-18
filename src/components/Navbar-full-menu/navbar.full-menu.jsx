@@ -6,22 +6,16 @@ import initFullNavbarMenu from "../../common/initFullNavbarMenu";
 
 const NavbarFullMenu = ({ theme }) => {
   React.useEffect(() => {
-    initFullNavbarMenu()
-  }, [])
+    initFullNavbarMenu();
+  }, []);
   return (
     <>
-      <div
-        id="navi"
-        className={`topnav ligth`}
-      >
+      <div id="navi" className={`topnav ligth`}>
         <div className="container-fluid">
           <div className="logo">
-          <Link href={`/`} passHref>
-              
+            <Link href={`/`} passHref>
               <img src={appData.lightLogo} alt="logo" />
-           
-          </Link>
-          
+            </Link>
           </div>
           <div className="menu-icon">
             <span className="icon">
@@ -43,24 +37,23 @@ const NavbarFullMenu = ({ theme }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
-                    <Link href={`/`}>
-                      <a  className="link">
-                        <span className="nm">01.</span>Home
-                      </a>
+                      <Link href={`/`}>
+                        <a className="link">
+                          <span className="nm">01.</span>Home
+                        </a>
                       </Link>
                     </div>
-                    
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/blog-list/blog-list-dark`}>
+                      <Link href={`/campanas/campana`}>
                         <a className="link">
                           <span className="nm">02.</span>Campañas
                         </a>
                       </Link>
                     </div>
                   </li>
-                  
+
                   <li>
                     <div className="o-hidden">
                       <Link href={`/about/about-dark`}>
@@ -70,7 +63,7 @@ const NavbarFullMenu = ({ theme }) => {
                       </Link>
                     </div>
                   </li>
-                  
+
                   <li>
                     <div className="o-hidden">
                       <Link href={`/contact/contact-dark`}>
@@ -88,19 +81,19 @@ const NavbarFullMenu = ({ theme }) => {
                 <div className="item">
                   <h6>Teléfono :</h6>
                   <p>
-                  <a href="tel:3203504047"> +57 300 123 4567 </a>
-                    </p>
+                    <a href="tel:3203504047"> +57 300 123 4567 </a>
+                  </p>
                 </div>
                 <div className="item">
                   <h6>Oficina principal :</h6>
-                  <p>
-                    Calle 18 # 65A - 03, Bogotá Colombia
-                  </p>
+                  <p>Calle 18 # 65A - 03, Bogotá Colombia</p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="mailto:comercial.1@brave.com.co">comercial.1@brave.com.co</a>
+                    <a href="mailto:comercial.1@brave.com.co">
+                      comercial.1@brave.com.co
+                    </a>
                   </p>
                 </div>
               </div>
