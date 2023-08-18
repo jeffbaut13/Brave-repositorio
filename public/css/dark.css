@@ -62,6 +62,13 @@
   font-weight: 700;
 }
 
+
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight-06';
+  src: url('../fonts/HelveticaNeue-UltraLight-06.ttf');
+}
+
+
 @font-face {
   font-family: 'HankenGrotesk-Light';
   src: url('../fonts/HKGrotesk-Light.ttf');
@@ -9506,4 +9513,110 @@ section.play.customIcon {
 .xcierre{
   width: 20px;
   cursor: pointer;
+}
+.pilares_titulo {
+  max-width: 1500px;
+  margin:auto;
+}
+
+.pilares_titulo h2 {
+  font-family: 'HankenGrotesk-Bold';
+  font-size:3rem;
+  line-height:40px;
+}
+
+.pilares_titulo span:nth-child(1) {
+  font-family: 'HankenGrotesk-Light';
+  font-weight: 200;
+  font-size: 35%;
+  text-transform:uppercase;
+}
+.linea {
+  width: 60%;
+  height: 2px;
+  margin: auto;
+}
+.pilares_unidades figure {
+  width: 70%;
+  margin: auto;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14%;
+}
+
+.number {
+  font-family: "HelveticaNeue-UltraLight-06";
+  width: 10%;
+  text-align: center;
+  line-height: 10px;
+  font-size: 4rem;
+}
+@media(min-width:1024px){
+.pilares {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-auto-rows: 50%;
+  gap: 50px;
+  max-width: 1500px;
+  width: 100%;
+  margin-top: 5%;
+}
+.pilares_unidades:nth-child(1) {
+  justify-self: start;
+}
+.pilares_unidades:nth-child(4) {
+  justify-self: start;
+}
+.pilares_unidades:nth-child(3) {
+  justify-self: end;
+}
+.pilares_unidades:nth-child(2), .pilares_unidades:nth-child(5)  {
+  justify-self: center;
+}
+}
+
+@media(max-width:600px){
+  .pilares {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: unset;
+    gap: 50px;
+    max-width: 1500px;
+    margin: 5% auto;
+    padding: 20px;
+}
+.pilares_unidades {
+  justify-self: center;
+}
+  }
+
+  @media(min-width:601px) and (max-width:1023px){
+    .pilares {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      padding: 40px;
+  }
+  .Pilar-flex {
+    margin-top: 73px;
+}
+  
+    }
+.descripcion {
+  max-width: 300px;
+  font-family: 'HankenGrotesk-Light';
+  padding-left: 3%;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+.Pilar-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
