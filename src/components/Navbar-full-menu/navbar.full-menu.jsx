@@ -81,7 +81,7 @@ const NavbarFullMenu = ({ theme }) => {
                 <div className="item">
                   <h6>Teléfono :</h6>
                   <p>
-                    <a href="tel:3203504047"> +57 300 123 4567 </a>
+                    <a href="tel:3203504047"> +57 320 996 28 08 </a>
                   </p>
                 </div>
                 <div className="item">

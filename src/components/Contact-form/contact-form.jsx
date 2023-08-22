@@ -23,7 +23,7 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">Ponte en contacto.</h4>
+              <h4 className="fw-700 mb-50">Ponte en contacto.</h4>
               <div className="klaviyo-form-V2qaXP"></div>
               
               {/* <Formik
@@ -105,7 +105,7 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-5 offset-lg-1">
             <div className="cont-info">
-              <h4 className="fw-700 color-font mb-50">Información de contacto.</h4>
+              <h4 className="fw-700 mb-50">Información de contacto.</h4>
               <h3 className="wow" data-splitting>
                 {ContactFromDate.title}
               </h3>
@@ -116,7 +116,7 @@ const ContactForm = () => {
                 <h5>{ContactFromDate.phone}</h5>
               </div>
               <h3 className="wow" data-splitting>
-                Visit Us.
+                Visitanos.
               </h3>
               <div className="item">
                 <h6>

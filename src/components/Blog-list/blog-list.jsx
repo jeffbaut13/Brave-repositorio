@@ -26,7 +26,7 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <Link href="/blog/blog-dark">
+                            <Link href="">
                               <a className="date">
                                 <span>
                                   <i>{blogItem.date.day}</i>
@@ -36,7 +36,7 @@ const BlogList = ({ blogs }) => {
                             </Link>
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <Link key={index} href="/blog/blog-dark">
+                              <Link key={index} href="">
                                 <a className="tag">
                                   <span>{tag}</span>
                                 </a>
@@ -44,7 +44,7 @@ const BlogList = ({ blogs }) => {
                             ))}
                           </div>
                           <h5>
-                            <Link href="/blog-details/blog-details-dark">
+                            <Link href="">
                               <a>{blogItem.title}</a>
                             </Link>
                           </h5>
@@ -52,8 +52,8 @@ const BlogList = ({ blogs }) => {
                             {blogItem.content.substr(0, 146) + '...'}
                           </p>
                           <div className="btn-more mt-30">
-                            <Link href="/blog-details/blog-details-dark">
-                              <a className="simple-btn">Read More</a>
+                            <Link href={blogItem.linkurl} passHref>
+                              <a className="simple-btn">Conoce más</a>
                             </Link>
                           </div>
                         </div>
@@ -62,7 +62,7 @@ const BlogList = ({ blogs }) => {
                   </div>
                 </div>
               ))}
-              <div className="pagination">
+              {/* <div className="pagination">
                 <span className="active">
                   <Link href={`/blog/blog-dark`}>1</Link>
                 </span>
@@ -76,7 +76,7 @@ const BlogList = ({ blogs }) => {
                     </a>
                   </Link>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

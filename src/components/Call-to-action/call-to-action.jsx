@@ -23,7 +23,7 @@ const CallToAction = ({ img }) => {
           </div>
 
           <div className="contacoCall">
-            <Link href={`/contact/contact-dark`}>
+            <Link href={`/contacto/`}>
               <a className="butn bord curve wow fadeInUp" data-wow-delay=".5s">
                 <span>Contacto</span>
               </a>

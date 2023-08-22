@@ -26,7 +26,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="cont">
                     <h6>Email</h6>
                     <p>
-                      <a href="mailto:comercial.1@brave.com.co"> contacto@brave.com </a>
+                      <a href="mailto:comercial.1@brave.com.co"> comercial.1@brave.com.co </a>
                       </p>
                   </div>
                 </li>
@@ -35,7 +35,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="cont">
                     <h6>Telefono</h6>
                     <p>
-                     <a href="tel:3203504047"> +57 300 123 4567 </a>
+                     <a href="tel:3203504047"> +57 320 996 28 08 </a>
                       </p>
                   </div>
                 </li>
