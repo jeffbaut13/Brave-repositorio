@@ -6,8 +6,8 @@
   "projectHeaderImageMobil": "/img/portfolio/project2/plasticoMobile.jpg",
   "videoLink": "838841453",
   "video": "https://vimeo.com/838841453",
-  "clientURLName": "INTER RAPIDISIMO",
-  "date": "MARZO DE 2022",
+  "clientURLName": "INTER RAPIDÍSIMO",
+  "date": "MARZO DE 2023",
   "next": "/img/portfolio/project2/circulo.jpg",
   "categories": [
     {
@@ -40,7 +40,7 @@
   "tags": [
     {
       "id": 1,
-      "name": "MUNDO SIN PLASTICO",
+      "name": "MUNDO SIN PLÁSTICO",
       "link": "#"
     },
     {
@@ -83,6 +83,6 @@
     "/img/portfolio/project2/1400_600_mundo_sin_plastico.jpg"
   ],
   "description": {
-    "content": "Para lanzar esta innovación, primero mostraremos los estragos que inspiraron su creación, por ello, expusimos 50 nuevas especies descubiertas en Colombia, especies que no deberían existir, pero  que allí están, siendo un recordatorio de lo que el plástico mal desechado puede llegar a causar."
+    "content": "Para lanzar esta innovación, primero mostraremos los estragos que inspiraron su creación, por ello, mundosinlastico.com expusimos 50 nuevas especies descubiertas en Colombia, especies que no deberían existir, pero  que allí están, siendo un recordatorio de lo que el plástico mal desechado puede llegar a causar."
   }
 }

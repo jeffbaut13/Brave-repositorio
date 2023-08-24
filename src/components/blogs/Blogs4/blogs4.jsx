@@ -309,7 +309,7 @@ const Blogs4 = () => {
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
                               <span>
-                                REVISTA Lrzers Archive 223 (US edition). 2/23
+                                Revista Lürzers Archive 223 (US edition). 2/23
                               </span>
                             </Link>
                           </h4>
@@ -324,7 +324,7 @@ const Blogs4 = () => {
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.adforum.com/torch/phnx-2023/winners/"
+                            href="https://www.luerzersarchive.com/work/inter-rapidisimo/"
                           >
                             Conoce más
                           </a>

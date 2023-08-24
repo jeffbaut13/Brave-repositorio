@@ -52,7 +52,7 @@ const NavbarFullMenuDark = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/blog-list/blog-list-dark`}>
+                      <Link href={`/proyectos`}>
                         <a className="link">
                           <span className="nm">02.</span>Campañas
                         </a>
@@ -62,7 +62,7 @@ const NavbarFullMenuDark = ({ theme }) => {
                   
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about/about-dark`}>
+                      <Link href={`/sobre-nosotros`}>
                         <a className="link">
                           <span className="nm">02.</span>Nosotros
                         </a>
@@ -72,7 +72,7 @@ const NavbarFullMenuDark = ({ theme }) => {
                   
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact/contact-dark`}>
+                      <Link href={`/contacto`}>
                         <a className="link">
                           <span className="nm">05.</span>Contacto
                         </a>
@@ -85,19 +85,19 @@ const NavbarFullMenuDark = ({ theme }) => {
             <div className="col-lg-3 col-md-4">
               <div className="cont-info">
                 <div className="item">
-                  <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <h6>TELÉFONO:</h6>
+                  <p>+57 320 996 28 08</p>
                 </div>
                 <div className="item">
-                  <h6>Address :</h6>
+                  <h6>OFICINA PRINCIPAL:</h6>
                   <p>
-                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                    Calle 18 # 65A - 03, Bogotá, Colombia
                   </p>
                 </div>
                 <div className="item">
-                  <h6>Email :</h6>
+                  <h6>EMAIL:</h6>
                   <p>
-                    <a href="#0">Vie_website@gmail.com</a>
+                    <a href="#0">comercial.1@brave.com.co</a>
                   </p>
                 </div>
               </div>

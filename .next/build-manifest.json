@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contacto": [
+    "/proyectos/alcarrito": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contacto.js"
+      "static/chunks/pages/proyectos/alcarrito.js"
     ],
-    "/proyectos": [
+    "/proyectos/mundosinplastico": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/proyectos.js"
+      "static/chunks/pages/proyectos/mundosinplastico.js"
     ]
   },
   "ampFirstPages": []

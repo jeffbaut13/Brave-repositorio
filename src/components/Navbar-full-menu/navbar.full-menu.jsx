@@ -86,7 +86,7 @@ const NavbarFullMenu = ({ theme }) => {
                 </div>
                 <div className="item">
                   <h6>Oficina principal:</h6>
-                  <p>Calle 18 # 65A - 03, Bogotá Colombia</p>
+                  <p>Calle 18 # 65A - 03, Bogotá, Colombia</p>
                 </div>
                 <div className="item">
                   <h6>Email:</h6>

@@ -33,7 +33,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Telefono</h6>
+                    <h6>Teléfono</h6>
                     <p>
                      <a href="tel:3203504047"> +57 320 996 28 08 </a>
                       </p>
