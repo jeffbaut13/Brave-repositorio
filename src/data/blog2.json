@@ -1,18 +1,6 @@
 [
     {
         "id": 1,
-        "title": "#WEGO",
-        "content": "Los salarios y contratos de las jugadoras no se acercan en lo mínimo al de sus colegas masculinos, además, hay jugadoras a las que se les hace contrato por máximo 4 meses al año. Por esto, antes, durante y después de su temporada deportiva tienen que buscar trabajos alternos para cubrir sus gastos. Así que decidimos hacer algo.",
-        "image": "/img/blog/we-go.jpg",
-        "tags": ["WEGO ,FUTBOL ,LINDA CAICEDO"],
-        "linkurl": "/proyectos/inter/",
-        "date": {
-            "day": "Noviembre ",
-            "month": "2022"
-        }
-    },
-    {
-        "id": 2,
         "title": "Mundo sin Plástico",
         "content": "La contaminación por el uso indebido del plástico está llegando a un punto de no retorno. Actualmente, existen 3 grandes islas de estos desechos flotando libremente por los océanos, una de ellas supera el tamaño del estado de Texas en los Estados Unidos. Inter Rapidísimo decidió hacer algo, promover el empleo responsable del plástico en Colombia, o usar alternativas a este material, como su nueva bolsa hecha a base de yuca que al contacto con el agua, se convierte en comida para peces.",
         "image": "/img/blog/mundo-sin-plastico.jpg",
@@ -21,6 +9,18 @@
         "date": {
             "day": "MARZO ",
             "month": "2023"
+        }
+    },
+    {
+        "id": 2,
+        "title": "#WEGO",
+        "content": "Los salarios y contratos de las jugadoras no se acercan en lo mínimo al de sus colegas masculinos, además, hay jugadoras a las que se les hace contrato por máximo 4 meses al año. Por esto, antes, durante y después de su temporada deportiva tienen que buscar trabajos alternos para cubrir sus gastos. Así que decidimos hacer algo.",
+        "image": "/img/blog/we-go.jpg",
+        "tags": ["WEGO ,FUTBOL ,LINDA CAICEDO"],
+        "linkurl": "/proyectos/inter/",
+        "date": {
+            "day": "Noviembre ",
+            "month": "2022"
         }
     },
     {

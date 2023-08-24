@@ -16,7 +16,7 @@ const CallToAction = ({ img }) => {
                   data-splitting
                 ></h2>
                 <b className="wow words chars splitting" data-splitting>
-                  Trae tu marca a la agencia donde la valentia es la norma.
+                  Trae tu marca a la agencia donde la valentía es la norma.
                 </b>
               </Split>
             </div>

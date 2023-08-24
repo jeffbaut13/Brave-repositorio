@@ -1,10 +1,10 @@
 {
   "id": 1,
   "title": "Hablemos.",
-  "email": "Email@example.com",
-  "phone": "+57 300 123 4567",
+  "email": "comercial.1@brave.com.co",
+  "phone": "+57 320 996 28 08",
   "location": {
     "first": "Calle 18 # 65A - 03",
-    "second": "Bogotá Colombia"
+    "second": "Bogotá, Colombia"
   }
 }

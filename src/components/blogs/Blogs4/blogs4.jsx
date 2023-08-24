@@ -309,7 +309,7 @@ const Blogs4 = () => {
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
                               <span>
-                                REVISTA Lurzers Archive 223 (US edition). 2/23
+                                REVISTA Lrzers Archive 223 (US edition). 2/23
                               </span>
                             </Link>
                           </h4>
