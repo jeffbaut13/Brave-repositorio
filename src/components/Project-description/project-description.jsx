@@ -1,6 +1,10 @@
 import React from "react";
 
 const ProjectDescription = ({ projectDescriptionData, projectDescriptionDataDos }) => {
+ function crearhtmljson(){
+  return{__html: projectDescriptionData}
+ }
+ 
   return (
     <section className="intro-section section-padding">
       <div className="container">
@@ -14,9 +18,9 @@ const ProjectDescription = ({ projectDescriptionData, projectDescriptionDataDos 
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
-              <p className="extra-text">{projectDescriptionData}</p>
+              <p className="extra-text" dangerouslySetInnerHTML={crearhtmljson()}></p>
               <br/>
-              <p className="extra-text">{projectDescriptionDataDos}</p>
+              {/* <p className="extra-text">{projectDescriptionDataDos}</p> */}
             </div>
           </div>
         </div>

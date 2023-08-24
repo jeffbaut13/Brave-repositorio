@@ -25,11 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/proyectos/alcarrito": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/proyectos/alcarrito.js"
-    ],
     "/proyectos/mundosinplastico": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

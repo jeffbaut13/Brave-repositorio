@@ -55,7 +55,7 @@
     }
   ],
   "intro": {
-    "content": "La contaminación por el uso indebido del plástico está llegando a un punto de no retorno. Actualmente, existen 3 grandes islas de estos desechos flotando libremente por los océanos, una de ellas supera el tamaño del estado de Texas en los Estados Unidos. Inter Rapidísimo decidió hacer algo, promover el empleo responsable del plástico en Colombia, o usar alternativas a este material, como su nueva bolsa hecha a base de yuca que al contacto con el agua, se convierte en comida para peces.",
+    "content": "La contaminación por el uso indebido del plástico está llegando a un punto de no retorno. Actualmente, existen 3 grandes islas de estos desechos flotando libremente por los océanos, una de ellas supera el tamaño del estado de Texas en los Estados Unidos. Inter Rapidísimo decidió hacer algo, promover el empleo responsable del plástico en Colombia, o usar alternativas a este material, como su nueva <a href=\"#\">bolsa hecha a base de yuca</a> que al contacto con el agua, se convierte en comida para peces.",
     "spmList": [
       {
         "id": 1,
@@ -83,6 +83,6 @@
     "/img/portfolio/project2/1400_600_mundo_sin_plastico.jpg"
   ],
   "description": {
-    "content": "Para lanzar esta innovación, primero mostraremos los estragos que inspiraron su creación, por ello, mundosinlastico.com expusimos 50 nuevas especies descubiertas en Colombia, especies que no deberían existir, pero  que allí están, siendo un recordatorio de lo que el plástico mal desechado puede llegar a causar."
+    "content": "Para lanzar esta innovación, primero mostraremos los estragos que inspiraron su creación, por ello, en <a class='mun' target='_blank' href='https://mundosinplastico.com/'>mundosinlastico.com</a> expusimos 50 nuevas especies descubiertas en Colombia, especies que no deberían existir, pero  que allí están, siendo un recordatorio de lo que el plástico mal desechado puede llegar a causar."
   }
 }

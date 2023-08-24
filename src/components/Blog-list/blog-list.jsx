@@ -26,25 +26,21 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <Link href="">
                               <a className="date">
                                 <span>
                                   <i>{blogItem.date.day}</i>
                                   {blogItem.date.month}
                                 </span>
                               </a>
-                            </Link>
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <Link key={index} href="">
                                 <a className="tag">
                                   <span>{tag}</span>
                                 </a>
-                              </Link>
                             ))}
                           </div>
                           <h5>
-                            <Link href="">
+                            <Link href={blogItem.linkurl} passHref>
                               <a>{blogItem.title}</a>
                             </Link>
                           </h5>
