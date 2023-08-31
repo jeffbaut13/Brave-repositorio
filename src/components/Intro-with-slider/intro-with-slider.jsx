@@ -171,17 +171,26 @@ const IntroWithSlider = ({ sliderRef }) => {
           ></div>
         </div>
         <div className="social-icon">
-          <a href="#0">
+          <a 
+          target="_blank"
+          rel="noopener noreferrer"
+                    href="https://www.facebook.com/profile.php?id=100094496187493">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-twitter"></i>
+          <a target="_blank"
+                   rel="noopener noreferrer"
+                   href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+            <i className="fab fa-linkedin"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-behance"></i>
+          <a target="_blank"
+                   rel="noopener noreferrer"
+                   href="https://www.instagram.com/brave.colombia/">
+            <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-pinterest-p"></i>
+          <a target="_blank"
+                   rel="noopener noreferrer"
+                   href="https://www.youtube.com/channel/UCzb-UgMroYfLySmuFcaXPGA">
+            <i className="fab fa-youtube"></i>
           </a>
         </div>
       </div>
