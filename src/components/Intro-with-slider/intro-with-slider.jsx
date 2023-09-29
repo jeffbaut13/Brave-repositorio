@@ -106,7 +106,11 @@ const IntroWithSlider = ({ sliderRef }) => {
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
+                  style={
+                    !isMobile
+                      ? { backgroundImage: `url(${slide.image})` }
+                      : { backgroundColor: "#000000" }
+                  }
                   data-overlay-dark="6"
                 >
                   <div className="Vimeo">
@@ -171,25 +175,32 @@ const IntroWithSlider = ({ sliderRef }) => {
           ></div>
         </div>
         <div className="social-icon">
-          <a 
-          target="_blank"
-          rel="noopener noreferrer"
-                    href="https://www.facebook.com/profile.php?id=100094496187493">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/profile.php?id=100094496187493"
+          >
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/feed/?trk=onboarding-landing"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
-          <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://www.instagram.com/brave.colombia/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/brave.colombia/"
+          >
             <i className="fab fa-instagram"></i>
           </a>
-          <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://www.youtube.com/channel/UCzb-UgMroYfLySmuFcaXPGA">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/channel/UCzb-UgMroYfLySmuFcaXPGA"
+          >
             <i className="fab fa-youtube"></i>
           </a>
         </div>
