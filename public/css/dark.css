@@ -8736,7 +8736,7 @@ footer .item .copy-right p a {
   }
 
   .sm-mb30 {
-    margin-bottom: 30px;
+    margin: 20px;
   }
 
   .sm-mb40 {
@@ -8985,7 +8985,13 @@ footer .item .copy-right p a {
 
   .sec-head h3 {
     font-size: 30px;
+    padding-left: 20px;
   }
+  .pilares_titulo {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
 
   .sec-head h6 {
     font-size: 15px;
@@ -9115,6 +9121,7 @@ footer .item .copy-right p a {
 
   .intro-section .htit {
     margin-bottom: 15px;
+    padding-left: 15px;
   }
 }
 
