@@ -10,6 +10,16 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Brave</title>
         <link rel="icon" href="/img/favicon.svg" />
+        {/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S9TL9VRKZG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S9TL9VRKZG');
+</script>
+ {/* <!-- Google tag (gtag.js) --> */}
         <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RFEzpZ"></script>
       </Head>
       
