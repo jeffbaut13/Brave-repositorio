@@ -1,112 +1,223 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./src/common/loadingPace.js":
-/*!***********************************!*\
-  !*** ./src/common/loadingPace.js ***!
-  \***********************************/
+/***/ 7393:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst loadingPace = ()=>{\n    Pace.on(\"start\", function() {\n        document.querySelector(\"#preloader\").classList.remove(\"isdone\");\n        document.querySelector(\".loading\").classList.remove(\"isdone\");\n    });\n    Pace.on(\"done\", function() {\n        document.querySelector(\"#preloader\").classList.add(\"isdone\");\n        document.querySelector(\".loading\").classList.add(\"isdone\");\n    });\n    if (document.querySelector(\"body\").classList.contains(\"pace-done\")) {\n        document.querySelector(\"#preloader\").classList.add(\"isdone\");\n        document.querySelector(\".loading\").classList.add(\"isdone\");\n    }\n    window.addEventListener(\"load\", ()=>{\n        document.querySelector(\"#preloader\").classList.add(\"isdone\");\n        document.querySelector(\".loading\").classList.add(\"isdone\");\n        if (document.querySelector('.pace-running.pace-running')) {\n            document.querySelector('.pace-running.pace-running').classList.remove('pace-running');\n        }\n    });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadingPace);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tbW9uL2xvYWRpbmdQYWNlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxLQUFLLENBQUNBLFdBQVcsT0FBUyxDQUFDO0lBRXpCQyxJQUFJLENBQUNDLEVBQUUsQ0FBQyxDQUFPLFFBQUUsUUFBUSxHQUFJLENBQUM7UUFDNUJDLFFBQVEsQ0FBQ0MsYUFBYSxDQUFDLENBQVksYUFBRUMsU0FBUyxDQUFDQyxNQUFNLENBQUMsQ0FBUTtRQUM5REgsUUFBUSxDQUFDQyxhQUFhLENBQUMsQ0FBVSxXQUFFQyxTQUFTLENBQUNDLE1BQU0sQ0FBQyxDQUFRO0lBQzlELENBQUM7SUFDREwsSUFBSSxDQUFDQyxFQUFFLENBQUMsQ0FBTSxPQUFFLFFBQVEsR0FBSSxDQUFDO1FBQzNCQyxRQUFRLENBQUNDLGFBQWEsQ0FBQyxDQUFZLGFBQUVDLFNBQVMsQ0FBQ0UsR0FBRyxDQUFDLENBQVE7UUFDM0RKLFFBQVEsQ0FBQ0MsYUFBYSxDQUFDLENBQVUsV0FBRUMsU0FBUyxDQUFDRSxHQUFHLENBQUMsQ0FBUTtJQUUzRCxDQUFDO0lBRUQsRUFBRSxFQUFFSixRQUFRLENBQUNDLGFBQWEsQ0FBQyxDQUFNLE9BQUVDLFNBQVMsQ0FBQ0csUUFBUSxDQUFDLENBQVcsYUFBRyxDQUFDO1FBQ25FTCxRQUFRLENBQUNDLGFBQWEsQ0FBQyxDQUFZLGFBQUVDLFNBQVMsQ0FBQ0UsR0FBRyxDQUFDLENBQVE7UUFDM0RKLFFBQVEsQ0FBQ0MsYUFBYSxDQUFDLENBQVUsV0FBRUMsU0FBUyxDQUFDRSxHQUFHLENBQUMsQ0FBUTtJQUMzRCxDQUFDO0lBRURFLE1BQU0sQ0FBQ0MsZ0JBQWdCLENBQUMsQ0FBTSxXQUFRLENBQUM7UUFDckNQLFFBQVEsQ0FBQ0MsYUFBYSxDQUFDLENBQVksYUFBRUMsU0FBUyxDQUFDRSxHQUFHLENBQUMsQ0FBUTtRQUMzREosUUFBUSxDQUFDQyxhQUFhLENBQUMsQ0FBVSxXQUFFQyxTQUFTLENBQUNFLEdBQUcsQ0FBQyxDQUFRO1FBQ3pELEVBQUUsRUFBRUosUUFBUSxDQUFDQyxhQUFhLENBQUMsQ0FBNEIsOEJBQUcsQ0FBQztZQUN6REQsUUFBUSxDQUFDQyxhQUFhLENBQUMsQ0FBNEIsNkJBQUVDLFNBQVMsQ0FBQ0MsTUFBTSxDQUFDLENBQWM7UUFDdEYsQ0FBQztJQUNILENBQUM7QUFDSCxDQUFDO0FBRUQsaUVBQWVOLFdBQVcsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3ZpZS1yZWFjdC8uL3NyYy9jb21tb24vbG9hZGluZ1BhY2UuanM/N2YwMSJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBsb2FkaW5nUGFjZSA9ICgpID0+IHtcbiBcbiAgUGFjZS5vbihcInN0YXJ0XCIsIGZ1bmN0aW9uICgpIHtcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiI3ByZWxvYWRlclwiKS5jbGFzc0xpc3QucmVtb3ZlKFwiaXNkb25lXCIpO1xuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIubG9hZGluZ1wiKS5jbGFzc0xpc3QucmVtb3ZlKFwiaXNkb25lXCIpO1xuICB9KTtcbiAgUGFjZS5vbihcImRvbmVcIiwgZnVuY3Rpb24gKCkge1xuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIjcHJlbG9hZGVyXCIpLmNsYXNzTGlzdC5hZGQoXCJpc2RvbmVcIik7XG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5sb2FkaW5nXCIpLmNsYXNzTGlzdC5hZGQoXCJpc2RvbmVcIik7XG4gICAgXG4gIH0pO1xuXG4gIGlmIChkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiYm9keVwiKS5jbGFzc0xpc3QuY29udGFpbnMoXCJwYWNlLWRvbmVcIikpIHtcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiI3ByZWxvYWRlclwiKS5jbGFzc0xpc3QuYWRkKFwiaXNkb25lXCIpO1xuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIubG9hZGluZ1wiKS5jbGFzc0xpc3QuYWRkKFwiaXNkb25lXCIpO1xuICB9XG5cbiAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoXCJsb2FkXCIsICgpID0+IHtcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiI3ByZWxvYWRlclwiKS5jbGFzc0xpc3QuYWRkKFwiaXNkb25lXCIpO1xuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIubG9hZGluZ1wiKS5jbGFzc0xpc3QuYWRkKFwiaXNkb25lXCIpO1xuICAgIGlmIChkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcucGFjZS1ydW5uaW5nLnBhY2UtcnVubmluZycpKSB7XG4gICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcucGFjZS1ydW5uaW5nLnBhY2UtcnVubmluZycpLmNsYXNzTGlzdC5yZW1vdmUoJ3BhY2UtcnVubmluZycpXG4gICAgfVxuICB9KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGxvYWRpbmdQYWNlO1xuIl0sIm5hbWVzIjpbImxvYWRpbmdQYWNlIiwiUGFjZSIsIm9uIiwiZG9jdW1lbnQiLCJxdWVyeVNlbGVjdG9yIiwiY2xhc3NMaXN0IiwicmVtb3ZlIiwiYWRkIiwiY29udGFpbnMiLCJ3aW5kb3ciLCJhZGRFdmVudExpc3RlbmVyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/common/loadingPace.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(968);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+;// CONCATENATED MODULE: external "next/script"
+const script_namespaceObject = require("next/script");
+var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
+;// CONCATENATED MODULE: ./src/common/loadingPace.js
+const loadingPace = ()=>{
+    Pace.on("start", function() {
+        document.querySelector("#preloader").classList.remove("isdone");
+        document.querySelector(".loading").classList.remove("isdone");
+    });
+    Pace.on("done", function() {
+        document.querySelector("#preloader").classList.add("isdone");
+        document.querySelector(".loading").classList.add("isdone");
+    });
+    if (document.querySelector("body").classList.contains("pace-done")) {
+        document.querySelector("#preloader").classList.add("isdone");
+        document.querySelector(".loading").classList.add("isdone");
+    }
+    window.addEventListener("load", ()=>{
+        document.querySelector("#preloader").classList.add("isdone");
+        document.querySelector(".loading").classList.add("isdone");
+        if (document.querySelector('.pace-running.pace-running')) {
+            document.querySelector('.pace-running.pace-running').classList.remove('pace-running');
+        }
+    });
+};
+/* harmony default export */ const common_loadingPace = (loadingPace);
+
+// EXTERNAL MODULE: ./src/data/app.json
+var app = __webpack_require__(2806);
+;// CONCATENATED MODULE: ./src/components/Loading-Screen/index.jsx
+
+
+
+
+
+const LoadingScreen = ()=>{
+    external_react_default().useEffect(()=>{
+        let bodyEl = document.querySelector("body");
+        if (app/* showLoading */.QP) {
+            common_loadingPace();
+            if (bodyEl.classList.contains("hideX")) {
+                bodyEl.classList.remove("hideX");
+            }
+        } else {
+            bodyEl.classList.add("hideX");
+        }
+    });
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: `${app/* showLoading */.QP === true ? "showX" : "hideX"}`,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "loading",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "C"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "a"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "r"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "g"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "a"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "n"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "d"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "o"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        id: "preloader"
+                    })
+                ]
+            }),
+            app/* showLoading */.QP ? /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "pace",
+                strategy: "beforeInteractive",
+                src: "/js/pace.min.js"
+            }) : ""
+        ]
+    }));
+};
+/* harmony default export */ const Loading_Screen = (LoadingScreen);
+
+;// CONCATENATED MODULE: ./src/pages/_app.js
+
+
+
+
+
+
+function MyApp({ Component , pageProps  }) {
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                        children: "Brave"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "icon",
+                        href: "/img/favicon.svg"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                src: "https://www.googletagmanager.com/gtag/js?id=G-S9TL9VRKZG"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "google-analytics",
+                children: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-S9TL9VRKZG');
+        `
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                async: true,
+                src: "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RFEzpZ"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Loading_Screen, {
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "wow",
+                src: "/js/wow.min.js"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                strategy: "beforeInteractive",
+                id: "splitting",
+                src: "/js/splitting.min.js"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "simpleParallax",
+                src: "/js/simpleParallax.min.js"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "isotope",
+                strategy: "beforeInteractive",
+                src: "/js/isotope.pkgd.min.js"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
+                id: "wowInit",
+                strategy: "lazyOnload",
+                children: `new WOW().init();`
+            })
+        ]
+    }));
+}
+/* harmony default export */ const _app = (MyApp);
+
 
 /***/ }),
 
-/***/ "./src/components/Loading-Screen/index.jsx":
-/*!*************************************************!*\
-  !*** ./src/components/Loading-Screen/index.jsx ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/script */ \"next/script\");\n/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_script__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _common_loadingPace__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../common/loadingPace */ \"./src/common/loadingPace.js\");\n/* harmony import */ var _data_app_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../data/app.json */ \"./src/data/app.json\");\n\n\n\n\n\nconst LoadingScreen = ()=>{\n    react__WEBPACK_IMPORTED_MODULE_1___default().useEffect(()=>{\n        let bodyEl = document.querySelector(\"body\");\n        if (_data_app_json__WEBPACK_IMPORTED_MODULE_4__.showLoading) {\n            (0,_common_loadingPace__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n            if (bodyEl.classList.contains(\"hideX\")) {\n                bodyEl.classList.remove(\"hideX\");\n            }\n        } else {\n            bodyEl.classList.add(\"hideX\");\n        }\n    });\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                className: `${_data_app_json__WEBPACK_IMPORTED_MODULE_4__.showLoading === true ? \"showX\" : \"hideX\"}`,\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                    lineNumber: 21,\n                    columnNumber: 7\n                },\n                __self: undefined,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                        className: \"loading\",\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                            lineNumber: 22,\n                            columnNumber: 9\n                        },\n                        __self: undefined,\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 23,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"C\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 24,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"a\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 25,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"r\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 26,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"g\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 27,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"a\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 28,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"n\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 29,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"d\"\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                                    lineNumber: 30,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"o\"\n                            })\n                        ]\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                        id: \"preloader\",\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                            lineNumber: 32,\n                            columnNumber: 9\n                        },\n                        __self: undefined\n                    })\n                ]\n            }),\n            _data_app_json__WEBPACK_IMPORTED_MODULE_4__.showLoading ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {\n                id: \"pace\",\n                strategy: \"beforeInteractive\",\n                src: \"/js/pace.min.js\",\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\components\\\\Loading-Screen\\\\index.jsx\",\n                    lineNumber: 35,\n                    columnNumber: 9\n                },\n                __self: undefined\n            }) : \"\"\n        ]\n    }));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LoadingScreen);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Mb2FkaW5nLVNjcmVlbi9pbmRleC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUF5QjtBQUNPO0FBQ2tCO0FBQ1Q7QUFFekMsS0FBSyxDQUFDSSxhQUFhLE9BQVMsQ0FBQztJQUMzQkosc0RBQWUsS0FBTyxDQUFDO1FBQ3JCLEdBQUcsQ0FBQ00sTUFBTSxHQUFHQyxRQUFRLENBQUNDLGFBQWEsQ0FBQyxDQUFNO1FBQzFDLEVBQUUsRUFBRUwsdURBQW1CLEVBQUUsQ0FBQztZQUN4QkQsK0RBQVc7WUFFWCxFQUFFLEVBQUVJLE1BQU0sQ0FBQ0ksU0FBUyxDQUFDQyxRQUFRLENBQUMsQ0FBTyxTQUFHLENBQUM7Z0JBQ3ZDTCxNQUFNLENBQUNJLFNBQVMsQ0FBQ0UsTUFBTSxDQUFDLENBQU87WUFDakMsQ0FBQztRQUNILENBQUMsTUFBTSxDQUFDO1lBQ05OLE1BQU0sQ0FBQ0ksU0FBUyxDQUFDRyxHQUFHLENBQUMsQ0FBTztRQUM5QixDQUFDO0lBQ0gsQ0FBQztJQUNELE1BQU07O2tGQUVEQyxDQUFHO2dCQUFDQyxTQUFTLEtBQUtaLHVEQUFtQixLQUFLLElBQUksR0FBRyxDQUFPLFNBQUcsQ0FBTzs7Ozs7Ozs7MEZBQ2hFVyxDQUFHO3dCQUFDQyxTQUFTLEVBQUMsQ0FBUzs7Ozs7Ozs7aUdBQ3JCQyxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7O2lHQUNOQSxDQUFJOzs7Ozs7OzBDQUFDLENBQUM7Ozs7eUZBRVJGLENBQUc7d0JBQUNHLEVBQUUsRUFBQyxDQUFXOzs7Ozs7Ozs7O1lBRXBCZCx1REFBbUIsd0VBQ2pCRixvREFBTTtnQkFDTGdCLEVBQUUsRUFBQyxDQUFNO2dCQUNUQyxRQUFRLEVBQUMsQ0FBbUI7Z0JBQzVCQyxHQUFHLEVBQUMsQ0FBaUI7Ozs7Ozs7aUJBR3ZCLENBQUU7OztBQUlWLENBQUM7QUFFRCxpRUFBZWYsYUFBYSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdmllLXJlYWN0Ly4vc3JjL2NvbXBvbmVudHMvTG9hZGluZy1TY3JlZW4vaW5kZXguanN4PzY4YjciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IFNjcmlwdCBmcm9tIFwibmV4dC9zY3JpcHRcIjtcbmltcG9ydCBsb2FkaW5nUGFjZSBmcm9tIFwiLi4vLi4vY29tbW9uL2xvYWRpbmdQYWNlXCI7XG5pbXBvcnQgYXBwRGF0YSBmcm9tIFwiLi4vLi4vZGF0YS9hcHAuanNvblwiO1xuXG5jb25zdCBMb2FkaW5nU2NyZWVuID0gKCkgPT4ge1xuICBSZWFjdC51c2VFZmZlY3QoKCkgPT4ge1xuICAgIGxldCBib2R5RWwgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiYm9keVwiKTtcbiAgICBpZiAoYXBwRGF0YS5zaG93TG9hZGluZykge1xuICAgICAgbG9hZGluZ1BhY2UoKTtcbiAgICAgIFxuICAgICAgaWYgKGJvZHlFbC5jbGFzc0xpc3QuY29udGFpbnMoXCJoaWRlWFwiKSkge1xuICAgICAgICBib2R5RWwuY2xhc3NMaXN0LnJlbW92ZShcImhpZGVYXCIpO1xuICAgICAgfVxuICAgIH0gZWxzZSB7XG4gICAgICBib2R5RWwuY2xhc3NMaXN0LmFkZChcImhpZGVYXCIpO1xuICAgIH1cbiAgfSk7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtgJHthcHBEYXRhLnNob3dMb2FkaW5nID09PSB0cnVlID8gXCJzaG93WFwiIDogXCJoaWRlWFwifWB9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImxvYWRpbmdcIj5cbiAgICAgICAgICA8c3Bhbj5DPC9zcGFuPlxuICAgICAgICAgIDxzcGFuPmE8L3NwYW4+XG4gICAgICAgICAgPHNwYW4+cjwvc3Bhbj5cbiAgICAgICAgICA8c3Bhbj5nPC9zcGFuPlxuICAgICAgICAgIDxzcGFuPmE8L3NwYW4+XG4gICAgICAgICAgPHNwYW4+bjwvc3Bhbj5cbiAgICAgICAgICA8c3Bhbj5kPC9zcGFuPlxuICAgICAgICAgIDxzcGFuPm88L3NwYW4+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGlkPVwicHJlbG9hZGVyXCI+PC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIHthcHBEYXRhLnNob3dMb2FkaW5nID8gKFxuICAgICAgICA8U2NyaXB0XG4gICAgICAgICAgaWQ9XCJwYWNlXCJcbiAgICAgICAgICBzdHJhdGVneT1cImJlZm9yZUludGVyYWN0aXZlXCJcbiAgICAgICAgICBzcmM9XCIvanMvcGFjZS5taW4uanNcIlxuICAgICAgICA+PC9TY3JpcHQ+XG4gICAgICApIDogKFxuICAgICAgICBcIlwiXG4gICAgICApfVxuICAgIDwvPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTG9hZGluZ1NjcmVlbjtcbiJdLCJuYW1lcyI6WyJSZWFjdCIsIlNjcmlwdCIsImxvYWRpbmdQYWNlIiwiYXBwRGF0YSIsIkxvYWRpbmdTY3JlZW4iLCJ1c2VFZmZlY3QiLCJib2R5RWwiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3IiLCJzaG93TG9hZGluZyIsImNsYXNzTGlzdCIsImNvbnRhaW5zIiwicmVtb3ZlIiwiYWRkIiwiZGl2IiwiY2xhc3NOYW1lIiwic3BhbiIsImlkIiwic3RyYXRlZ3kiLCJzcmMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/Loading-Screen/index.jsx\n");
-
-/***/ }),
-
-/***/ "./src/pages/_app.js":
-/*!***************************!*\
-  !*** ./src/pages/_app.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/script */ \"next/script\");\n/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_script__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _components_Loading_Screen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Loading-Screen */ \"./src/components/Loading-Screen/index.jsx\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 10,\n                    columnNumber: 7\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"title\", {\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                            lineNumber: 11,\n                            columnNumber: 9\n                        },\n                        __self: this,\n                        children: \"Brave\"\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"link\", {\n                        rel: \"icon\",\n                        href: \"/img/favicon.svg\",\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                            lineNumber: 12,\n                            columnNumber: 9\n                        },\n                        __self: this\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"script\", {\n                        async: true,\n                        type: \"text/javascript\",\n                        src: \"https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RFEzpZ\",\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                            lineNumber: 13,\n                            columnNumber: 9\n                        },\n                        __self: this\n                    })\n                ]\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Loading_Screen__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 16,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Component, {\n                ...pageProps,\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 17,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_script__WEBPACK_IMPORTED_MODULE_3___default()), {\n                id: \"wow\",\n                src: \"/js/wow.min.js\",\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 19,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_script__WEBPACK_IMPORTED_MODULE_3___default()), {\n                strategy: \"beforeInteractive\",\n                id: \"splitting\",\n                src: \"/js/splitting.min.js\",\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 20,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_script__WEBPACK_IMPORTED_MODULE_3___default()), {\n                id: \"simpleParallax\",\n                src: \"/js/simpleParallax.min.js\",\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 25,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_script__WEBPACK_IMPORTED_MODULE_3___default()), {\n                id: \"isotope\",\n                strategy: \"beforeInteractive\",\n                src: \"/js/isotope.pkgd.min.js\",\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 26,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_script__WEBPACK_IMPORTED_MODULE_3___default()), {\n                id: \"wowInit\",\n                strategy: \"lazyOnload\",\n                __source: {\n                    fileName: \"C:\\\\Users\\\\jandresbvega\\\\Desktop\\\\brave\\\\themeforest-hP8waxdh-vie-react-creative-portfolio-agency-template\\\\Main_files\\\\vie\\\\src\\\\pages\\\\_app.js\",\n                    lineNumber: 31,\n                    columnNumber: 7\n                },\n                __self: this,\n                children: `new WOW().init();`\n            })\n        ]\n    }));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O0FBQXlCO0FBQ0c7QUFDSTtBQUN3QjtBQUM1QjtTQUVuQkksS0FBSyxDQUFDLENBQUMsQ0FBQ0MsU0FBUyxHQUFFQyxTQUFTLEVBQUMsQ0FBQyxFQUFFLENBQUM7SUFDeEMsTUFBTTs7a0ZBRURMLGtEQUFJOzs7Ozs7Ozt5RkFDRk0sQ0FBSzs7Ozs7OztrQ0FBQyxDQUFLOzt5RkFDWEMsQ0FBSTt3QkFBQ0MsR0FBRyxFQUFDLENBQU07d0JBQUNDLElBQUksRUFBQyxDQUFrQjs7Ozs7Ozs7eUZBQ3ZDQyxDQUFNO3dCQUFDQyxLQUFLO3dCQUFDQyxJQUFJLEVBQUMsQ0FBaUI7d0JBQUNDLEdBQUcsRUFBQyxDQUFtRTs7Ozs7Ozs7OztpRkFHN0dYLGtFQUFhOzs7Ozs7OztpRkFDYkUsU0FBUzttQkFBS0MsU0FBUzs7Ozs7Ozs7aUZBRXZCSixvREFBTTtnQkFBQ2EsRUFBRSxFQUFDLENBQUs7Z0JBQUNELEdBQUcsRUFBQyxDQUFnQjs7Ozs7Ozs7aUZBQ3BDWixvREFBTTtnQkFDTGMsUUFBUSxFQUFDLENBQW1CO2dCQUM1QkQsRUFBRSxFQUFDLENBQVc7Z0JBQ2RELEdBQUcsRUFBQyxDQUFzQjs7Ozs7Ozs7aUZBRTNCWixvREFBTTtnQkFBQ2EsRUFBRSxFQUFDLENBQWdCO2dCQUFDRCxHQUFHLEVBQUMsQ0FBMkI7Ozs7Ozs7O2lGQUMxRFosb0RBQU07Z0JBQ0xhLEVBQUUsRUFBQyxDQUFTO2dCQUNaQyxRQUFRLEVBQUMsQ0FBbUI7Z0JBQzVCRixHQUFHLEVBQUMsQ0FBeUI7Ozs7Ozs7O2lGQUU5Qlosb0RBQU07Z0JBQUNhLEVBQUUsRUFBQyxDQUFTO2dCQUFDQyxRQUFRLEVBQUMsQ0FBWTs7Ozs7OzsyQkFBRyxpQkFBaUI7Ozs7QUFHcEUsQ0FBQztBQUVELGlFQUFlWixLQUFLLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly92aWUtcmVhY3QvLi9zcmMvcGFnZXMvX2FwcC5qcz84ZmRhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xyXG5pbXBvcnQgU2NyaXB0IGZyb20gXCJuZXh0L3NjcmlwdFwiO1xyXG5pbXBvcnQgTG9hZGluZ1NjcmVlbiBmcm9tIFwiLi4vY29tcG9uZW50cy9Mb2FkaW5nLVNjcmVlblwiO1xyXG5pbXBvcnQgXCIuLi9zdHlsZXMvbWFpbi5zY3NzXCI7XHJcblxyXG5mdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcclxuICByZXR1cm4gKFxyXG4gICAgPD5cclxuICAgICAgPEhlYWQ+XHJcbiAgICAgICAgPHRpdGxlPkJyYXZlPC90aXRsZT5cclxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgaHJlZj1cIi9pbWcvZmF2aWNvbi5zdmdcIiAvPlxyXG4gICAgICAgIDxzY3JpcHQgYXN5bmMgdHlwZT1cInRleHQvamF2YXNjcmlwdFwiIHNyYz1cImh0dHBzOi8vc3RhdGljLmtsYXZpeW8uY29tL29uc2l0ZS9qcy9rbGF2aXlvLmpzP2NvbXBhbnlfaWQ9UkZFenBaXCI+PC9zY3JpcHQ+XHJcbiAgICAgIDwvSGVhZD5cclxuICAgICAgXHJcbiAgICAgIDxMb2FkaW5nU2NyZWVuIC8+XHJcbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cclxuICAgICAgXHJcbiAgICAgIDxTY3JpcHQgaWQ9XCJ3b3dcIiBzcmM9XCIvanMvd293Lm1pbi5qc1wiPjwvU2NyaXB0PlxyXG4gICAgICA8U2NyaXB0XHJcbiAgICAgICAgc3RyYXRlZ3k9XCJiZWZvcmVJbnRlcmFjdGl2ZVwiXHJcbiAgICAgICAgaWQ9XCJzcGxpdHRpbmdcIlxyXG4gICAgICAgIHNyYz1cIi9qcy9zcGxpdHRpbmcubWluLmpzXCJcclxuICAgICAgPjwvU2NyaXB0PlxyXG4gICAgICA8U2NyaXB0IGlkPVwic2ltcGxlUGFyYWxsYXhcIiBzcmM9XCIvanMvc2ltcGxlUGFyYWxsYXgubWluLmpzXCI+PC9TY3JpcHQ+XHJcbiAgICAgIDxTY3JpcHRcclxuICAgICAgICBpZD1cImlzb3RvcGVcIlxyXG4gICAgICAgIHN0cmF0ZWd5PVwiYmVmb3JlSW50ZXJhY3RpdmVcIlxyXG4gICAgICAgIHNyYz1cIi9qcy9pc290b3BlLnBrZ2QubWluLmpzXCJcclxuICAgICAgPjwvU2NyaXB0PlxyXG4gICAgICA8U2NyaXB0IGlkPVwid293SW5pdFwiIHN0cmF0ZWd5PVwibGF6eU9ubG9hZFwiPntgbmV3IFdPVygpLmluaXQoKTtgfTwvU2NyaXB0PlxyXG4gICAgPC8+XHJcbiAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTXlBcHA7XHJcbiJdLCJuYW1lcyI6WyJSZWFjdCIsIkhlYWQiLCJTY3JpcHQiLCJMb2FkaW5nU2NyZWVuIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJ0aXRsZSIsImxpbmsiLCJyZWwiLCJocmVmIiwic2NyaXB0IiwiYXN5bmMiLCJ0eXBlIiwic3JjIiwiaWQiLCJzdHJhdGVneSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/_app.js\n");
-
-/***/ }),
-
-/***/ "./src/styles/main.scss":
-/*!******************************!*\
-  !*** ./src/styles/main.scss ***!
-  \******************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 968:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "next/script":
-/*!******************************!*\
-  !*** external "next/script" ***!
-  \******************************/
+/***/ 6689:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("next/script");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/***/ ((module) => {
-
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-runtime":
-/*!************************************!*\
-  !*** external "react/jsx-runtime" ***!
-  \************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "./src/data/app.json":
-/*!***************************!*\
-  !*** ./src/data/app.json ***!
-  \***************************/
+/***/ 2806:
 /***/ ((module) => {
 
-"use strict";
-module.exports = JSON.parse('{"lightLogo":"/img/logo-light.svg","darkLogo":"/img/logo-dark.png","showLoading":true}');
+module.exports = JSON.parse('{"E8":"/img/logo-light.svg","Q1":"/img/logo-dark.png","QP":true}');
 
 /***/ })
 
@@ -117,7 +228,7 @@ module.exports = JSON.parse('{"lightLogo":"/img/logo-light.svg","darkLogo":"/img
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./src/pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(7393));
 module.exports = __webpack_exports__;
 
 })();
